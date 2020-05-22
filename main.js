@@ -3223,13 +3223,323 @@ const MathsPapers = [
     {
         tipe: "ExamPaper",
         year: "2000",
-        paper: "",
+        paper: "One",
         link: "https://drive.google.com/open?id=1jssR1kXDWCgPPUyotRG73Zxoo86bBc8y",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        paper: "",
+        link: "https://drive.google.com/open?id=1p_ARszktKYOhC4Q2IaLn-q4l7GjhK94k",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        paper: "",
+        link: "https://drive.google.com/open?id=1YVaNtFcwvNzrMtJ6e8i1abcHIHr8_uP8",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        paper: "",
+        link: "https://drive.google.com/open?id=1vnzKZf89e1uIwGMVeoipQ3PRavnhylWV",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        paper: "",
+        link: "https://drive.google.com/open?id=1nqv0sv8oUDlFJ9kCv78nHNKftq3LgPC1",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        paper: "",
+        link: "https://drive.google.com/open?id=1C8w80o1gIc2c1Wa6OkErd_K6xA8J6k9e",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        paper: "",
+        link: "https://drive.google.com/open?id=1lYZjktbOPiMWtTCxMqxJVLrT6UAkIvH0",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        paper: "",
+        link: "https://drive.google.com/open?id=1PPrtQYSXDL8PXbs7cZqEPudDlwstLu7T",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        paper: "",
+        link: "https://drive.google.com/open?id=15QOr4GhZMDdNy783ZKvrZzY-Qirc678p",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        paper: "",
+        link: "https://drive.google.com/open?id=1lqkSNcgCH3LW7_OIcAX5CNLpP8VR6jop",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        paper: "",
+        link: "https://drive.google.com/open?id=1bHve1w4EtG5r3-NSqkXqHTyXTE4dmiRT",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        paper: "",
+        link: "https://drive.google.com/open?id=1LZf6vaPwA7gENC9jFmVkW0Wa2LcIFcX1",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        paper: "",
+        link: "https://drive.google.com/open?id=1AJzWDteZ_6_InIxh8OvbRPYgw478mWy0",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        paper: "",
+        link: "https://drive.google.com/open?id=1cwhO_gFzHRhD_F6FAO8dQyoRBSYi2IOu",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        paper: "",
+        link: "https://drive.google.com/open?id=1n3Vv93xtyfFbO02aLRX2gpFICgvTU_cR",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        paper: "",
+        link: "https://drive.google.com/open?id=1GOlZmIBJHhqUfSM5H47-MmRdRSyldpHe",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2004",
+        paper: "",
+        link: "https://drive.google.com/open?id=1MKImss2BE3mgArW0dOoKBaSNBQswiujs",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2003",
+        paper: "",
+        link: "https://drive.google.com/open?id=1x3KkT9StyamE-k4vFr2RIV37iP1mQJbp",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2002",
+        paper: "",
+        link: "https://drive.google.com/open?id=1KIg4EL2iSBL6qmGfYggZUzR7Gf1SnceW",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2001",
+        paper: "",
+        link: "https://drive.google.com/open?id=1UlNcocsJNVJ0Exy_5HlhcDTJXOdPARWj",
     },
 ];
 const DCGPapers = [];
 const PhysicsPapers = [];
-const AppliedMathsPapers = [];
+const AppliedMathsPapers = [
+    {
+        tipe: "ExamPaper",
+        year: "2019",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2018",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2017",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2016",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2015",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2014",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2013",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2012",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2011",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2010",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2009",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2008",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2007",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2006",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2005",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2004",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2003",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2002",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2001",
+        link: "",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2000",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2004",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2003",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2002",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2001",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2000",
+        link: "",
+    },
+];
 
 
 /***/ }),
@@ -3507,6 +3817,7 @@ class MathsComponent {
         this.year = this.checkoutForm.get('year').value;
         this.hasOne = false;
         this.hasTwo = false;
+        this.hasMark = false;
         for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["MathsPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {

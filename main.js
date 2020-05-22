@@ -3479,6 +3479,17 @@ function MathsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r1.twoLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
+function MathsComponent_div_13_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r2.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+} }
 class MathsComponent {
     constructor(formBuilder) {
         this.formBuilder = formBuilder;
@@ -3498,20 +3509,26 @@ class MathsComponent {
         this.hasTwo = false;
         for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["MathsPapers"]) {
             if ((paper.year == this.year)) {
-                if (paper.paper == "One") {
-                    this.hasOne = true;
-                    this.oneLink = paper.link;
+                if (paper.tipe == "ExamPaper") {
+                    if (paper.paper == "One") {
+                        this.hasOne = true;
+                        this.oneLink = paper.link;
+                    }
+                    else if (paper.paper == "Two") {
+                        this.hasTwo = true;
+                        this.twoLink = paper.link;
+                    }
                 }
-                else if (paper.paper == "Two") {
-                    this.hasTwo = true;
-                    this.twoLink = paper.link;
+                else {
+                    this.hasMark = true;
+                    this.markLink = paper.link;
                 }
             }
         }
     }
 }
 MathsComponent.ɵfac = function MathsComponent_Factory(t) { return new (t || MathsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
-MathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: MathsComponent, selectors: [["app-maths"]], decls: 12, vars: 3, consts: [[3, "formGroup", "ngSubmit"], [1, "YearBar"], ["for", "year", 1, "inconsolata"], ["id", "year", "type", "text", "formControlName", "year"], [1, "Results"], [4, "ngIf"], [3, "href"]], template: function MathsComponent_Template(rf, ctx) { if (rf & 1) {
+MathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: MathsComponent, selectors: [["app-maths"]], decls: 14, vars: 4, consts: [[3, "formGroup", "ngSubmit"], [1, "YearBar"], ["for", "year", 1, "inconsolata"], ["id", "year", "type", "text", "formControlName", "year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function MathsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "body");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "form", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function MathsComponent_Template_form_ngSubmit_1_listener() { return ctx.onSubmit(); });
@@ -3530,6 +3547,9 @@ MathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, MathsComponent_div_11_Template, 3, 1, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, MathsComponent_div_13_Template, 3, 1, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -3540,6 +3560,8 @@ MathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasOne);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasTwo);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasMark);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: [".YearBar[_ngcontent-%COMP%] {\r\n  color: aliceblue;\r\n  font-size: 40px;\r\n  line-height: 40px;\r\n}\r\n\r\n.inconsolata[_ngcontent-%COMP%] {\r\n  font-family: \"Inconsolata\", Courier, monospace;\r\n}\r\n\r\ninput[_ngcontent-%COMP%] {\r\n  width: 120px;\r\n}\r\n\r\ninput[type=text][_ngcontent-%COMP%] {\r\n  padding: 10px 5px;\r\n  margin: 0px 0;\r\n  box-sizing: border-box;\r\n  border: 2px solid rgb(32, 23, 23);\r\n  border-radius: 8px;\r\n  font-size: 20px;\r\n  height: 32px;\r\n}\r\n\r\n.Results[_ngcontent-%COMP%] {\r\n  background-color: rgb(41, 95, 43);\r\n  list-style-type: none;\r\n  text-align: center; \r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n  border-radius: 4px;\r\n  font-size: 20px;\r\n  height: 40px;\r\n}\r\n\r\n.Results[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n  font-size: 20px;\r\n  padding: 10px;\r\n}\r\n\r\n.Results[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  color: aliceblue;  \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWF0aHMvbWF0aHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2YsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsOENBQThDO0FBQ2hEOztBQUVBO0VBQ0UsWUFBWTtBQUNkOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsaUNBQWlDO0VBQ2pDLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2YsWUFBWTtBQUNkOztBQUVBO0VBQ0UsaUNBQWlDO0VBQ2pDLHFCQUFxQjtFQUNyQixrQkFBa0I7RUFDbEIsVUFBVTtFQUNWLFNBQVM7RUFDVCxzQkFBc0I7RUFDdEIsa0JBQWtCO0VBQ2xCLGVBQWU7RUFDZixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLGFBQWE7QUFDZjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQiIsImZpbGUiOiJzcmMvYXBwL21hdGhzL21hdGhzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuWWVhckJhciB7XHJcbiAgY29sb3I6IGFsaWNlYmx1ZTtcclxuICBmb250LXNpemU6IDQwcHg7XHJcbiAgbGluZS1oZWlnaHQ6IDQwcHg7XHJcbn1cclxuXHJcbi5pbmNvbnNvbGF0YSB7XHJcbiAgZm9udC1mYW1pbHk6IFwiSW5jb25zb2xhdGFcIiwgQ291cmllciwgbW9ub3NwYWNlO1xyXG59XHJcblxyXG5pbnB1dCB7XHJcbiAgd2lkdGg6IDEyMHB4O1xyXG59XHJcblxyXG5pbnB1dFt0eXBlPXRleHRdIHtcclxuICBwYWRkaW5nOiAxMHB4IDVweDtcclxuICBtYXJnaW46IDBweCAwO1xyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgYm9yZGVyOiAycHggc29saWQgcmdiKDMyLCAyMywgMjMpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDhweDtcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgaGVpZ2h0OiAzMnB4O1xyXG59XHJcblxyXG4uUmVzdWx0cyB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDQxLCA5NSwgNDMpO1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7IFxyXG4gIHBhZGRpbmc6IDA7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxuICBoZWlnaHQ6IDQwcHg7XHJcbn1cclxuXHJcbi5SZXN1bHRzIGxpIHtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgZm9udC1zaXplOiAyMHB4O1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbn1cclxuXHJcbi5SZXN1bHRzIGEge1xyXG4gIGNvbG9yOiBhbGljZWJsdWU7ICBcclxufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](MathsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],

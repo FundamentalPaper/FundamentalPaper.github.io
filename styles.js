@@ -441,7 +441,7 @@ module.exports = exported;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /mnt/c/Programming/fundamentalTest/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /mnt/c/Programming/Papers/src/styles.css */"./src/styles.css");
 
 
 /***/ })

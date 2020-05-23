@@ -3653,7 +3653,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home */ "./src/app/home/index.ts");
 /* harmony import */ var _maths__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./maths */ "./src/app/maths/index.ts");
 /* harmony import */ var _applied_maths__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./applied-maths */ "./src/app/applied-maths/index.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _physics__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./physics */ "./src/app/physics/index.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
 
 
 
@@ -3676,8 +3678,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
         _home__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
         _maths__WEBPACK_IMPORTED_MODULE_7__["MathsComponent"],
-        _applied_maths__WEBPACK_IMPORTED_MODULE_8__["AppliedMathsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_9__["RouterModule"]] }); })();
+        _applied_maths__WEBPACK_IMPORTED_MODULE_8__["AppliedMathsComponent"],
+        _physics__WEBPACK_IMPORTED_MODULE_9__["PhysicsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouterModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
@@ -3691,6 +3694,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
                     _home__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
                     _maths__WEBPACK_IMPORTED_MODULE_7__["MathsComponent"],
                     _applied_maths__WEBPACK_IMPORTED_MODULE_8__["AppliedMathsComponent"],
+                    _physics__WEBPACK_IMPORTED_MODULE_9__["PhysicsComponent"],
                 ],
                 providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_3__["HashLocationStrategy"] }],
                 bootstrap: [
@@ -3716,6 +3720,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ "./src/app/home/index.ts");
 /* harmony import */ var _maths__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./maths */ "./src/app/maths/index.ts");
 /* harmony import */ var _applied_maths__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./applied-maths */ "./src/app/applied-maths/index.ts");
+/* harmony import */ var _physics__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./physics */ "./src/app/physics/index.ts");
+
 
 
 
@@ -3724,6 +3730,7 @@ const routes = [
     { path: '', component: _home__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"] },
     { path: 'maths', component: _maths__WEBPACK_IMPORTED_MODULE_2__["MathsComponent"] },
     { path: 'applied-maths', component: _applied_maths__WEBPACK_IMPORTED_MODULE_3__["AppliedMathsComponent"] },
+    { path: 'physics', component: _physics__WEBPACK_IMPORTED_MODULE_4__["PhysicsComponent"] },
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
@@ -4076,6 +4083,136 @@ MathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCom
                 selector: 'app-maths',
                 templateUrl: 'maths.component.html',
                 styleUrls: ['maths.component.css']
+            }]
+    }], function () { return [{ type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/physics/index.ts":
+/*!**********************************!*\
+  !*** ./src/app/physics/index.ts ***!
+  \**********************************/
+/*! exports provided: PhysicsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _physics_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./physics.component */ "./src/app/physics/physics.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhysicsComponent", function() { return _physics_component__WEBPACK_IMPORTED_MODULE_0__["PhysicsComponent"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/physics/physics.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/physics/physics.component.ts ***!
+  \**********************************************/
+/*! exports provided: PhysicsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhysicsComponent", function() { return PhysicsComponent; });
+/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+
+
+
+
+function PhysicsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Exam Paper ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r0.paperLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+} }
+function PhysicsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r1.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+} }
+class PhysicsComponent {
+    constructor(formBuilder) {
+        this.formBuilder = formBuilder;
+        this.hasPaper = false;
+        this.hasMark = false;
+        this.paperLink = "";
+        this.markLink = "";
+        this.checkoutForm = this.formBuilder.group({
+            year: '',
+        });
+    }
+    onSubmit() {
+        this.year = this.checkoutForm.get('year').value;
+        this.hasPaper = false;
+        this.hasMark = false;
+        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["PhysicsPapers"]) {
+            if ((paper.year == this.year)) {
+                if (paper.tipe == "ExamPaper") {
+                    this.hasPaper = true;
+                    this.paperLink = paper.link;
+                }
+                else {
+                    this.hasMark = true;
+                    this.markLink = paper.link;
+                }
+            }
+        }
+    }
+}
+PhysicsComponent.ɵfac = function PhysicsComponent_Factory(t) { return new (t || PhysicsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
+PhysicsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: PhysicsComponent, selectors: [["app-physics"]], decls: 12, vars: 3, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function PhysicsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "body");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Physics Papers");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "form", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function PhysicsComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "input", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, PhysicsComponent_div_9_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, PhysicsComponent_div_11_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("formGroup", ctx.checkoutForm);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasPaper);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasMark);
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: [".YearBar[_ngcontent-%COMP%] {\r\n  color: rgb(68, 142, 207);\r\n  font-size: 40px;\r\n  line-height: 40px;\r\n}\r\n\r\n.Title[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\r\n  color: aliceblue;\r\n}\r\n\r\n.inconsolata[_ngcontent-%COMP%] {\r\n  font-family: \"Inconsolata\", Courier, monospace;\r\n}\r\n\r\n.trebuchet[_ngcontent-%COMP%] {\r\n  font-family: \"Trebuchet MS\", Helvetica, sans-serif;\r\n}\r\n\r\ninput[_ngcontent-%COMP%] {\r\n  width: 120px;\r\n}\r\n\r\ninput[type=text][_ngcontent-%COMP%] {\r\n  padding: 10px 5px;\r\n  margin: 0px 0;\r\n  box-sizing: border-box;\r\n  border: 2px solid rgb(32, 23, 23);\r\n  border-radius: 8px;\r\n  font-size: 20px;\r\n  height: 32px;\r\n}\r\n\r\n.Results[_ngcontent-%COMP%] {\r\n  background-color: rgb(68, 142, 207);\r\n  list-style-type: none;\r\n  text-align: center; \r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n  border-radius: 4px;\r\n  font-size: 20px;\r\n  height: 85px;\r\n}\r\n\r\n.Results[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n  font-size: 20px;\r\n  padding: 10px;\r\n}\r\n\r\n.Results[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  color: aliceblue;  \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGh5c2ljcy9waHlzaWNzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx3QkFBd0I7RUFDeEIsZUFBZTtFQUNmLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLDhDQUE4QztBQUNoRDs7QUFFQTtFQUNFLGtEQUFrRDtBQUNwRDs7QUFFQTtFQUNFLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGlCQUFpQjtFQUNqQixhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLGlDQUFpQztFQUNqQyxrQkFBa0I7RUFDbEIsZUFBZTtFQUNmLFlBQVk7QUFDZDs7QUFFQTtFQUNFLG1DQUFtQztFQUNuQyxxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLFVBQVU7RUFDVixTQUFTO0VBQ1Qsc0JBQXNCO0VBQ3RCLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2YsWUFBWTtBQUNkOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxnQkFBZ0I7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC9waHlzaWNzL3BoeXNpY3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5ZZWFyQmFyIHtcclxuICBjb2xvcjogcmdiKDY4LCAxNDIsIDIwNyk7XHJcbiAgZm9udC1zaXplOiA0MHB4O1xyXG4gIGxpbmUtaGVpZ2h0OiA0MHB4O1xyXG59XHJcblxyXG4uVGl0bGUgaDEge1xyXG4gIGNvbG9yOiBhbGljZWJsdWU7XHJcbn1cclxuXHJcbi5pbmNvbnNvbGF0YSB7XHJcbiAgZm9udC1mYW1pbHk6IFwiSW5jb25zb2xhdGFcIiwgQ291cmllciwgbW9ub3NwYWNlO1xyXG59XHJcblxyXG4udHJlYnVjaGV0IHtcclxuICBmb250LWZhbWlseTogXCJUcmVidWNoZXQgTVNcIiwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG59XHJcblxyXG5pbnB1dCB7XHJcbiAgd2lkdGg6IDEyMHB4O1xyXG59XHJcblxyXG5pbnB1dFt0eXBlPXRleHRdIHtcclxuICBwYWRkaW5nOiAxMHB4IDVweDtcclxuICBtYXJnaW46IDBweCAwO1xyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgYm9yZGVyOiAycHggc29saWQgcmdiKDMyLCAyMywgMjMpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDhweDtcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgaGVpZ2h0OiAzMnB4O1xyXG59XHJcblxyXG4uUmVzdWx0cyB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDY4LCAxNDIsIDIwNyk7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjsgXHJcbiAgcGFkZGluZzogMDtcclxuICBtYXJnaW46IDA7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgZm9udC1zaXplOiAyMHB4O1xyXG4gIGhlaWdodDogODVweDtcclxufVxyXG5cclxuLlJlc3VsdHMgbGkge1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgcGFkZGluZzogMTBweDtcclxufVxyXG5cclxuLlJlc3VsdHMgYSB7XHJcbiAgY29sb3I6IGFsaWNlYmx1ZTsgIFxyXG59Il19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](PhysicsComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
+        args: [{
+                selector: 'app-physics',
+                templateUrl: './physics.component.html',
+                styleUrls: ['./physics.component.css']
             }]
     }], function () { return [{ type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }]; }, null); })();
 

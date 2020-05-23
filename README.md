@@ -1,2 +1,1 @@
 # FundamentalPaper.github.io
-fresh

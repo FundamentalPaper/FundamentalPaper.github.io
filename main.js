@@ -2982,16 +2982,16 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 /*!***************************!*\
   !*** ./src/app/Papers.ts ***!
   \***************************/
-/*! exports provided: MathsPapers, DCGPapers, PhysicsPapers, AppliedMathsPapers */
+/*! exports provided: HLMathsPapers, HLDCGPapers, HLPhysicsPapers, HLAppliedMathsPapers */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MathsPapers", function() { return MathsPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DCGPapers", function() { return DCGPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhysicsPapers", function() { return PhysicsPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppliedMathsPapers", function() { return AppliedMathsPapers; });
-const MathsPapers = [
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLMathsPapers", function() { return HLMathsPapers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLDCGPapers", function() { return HLDCGPapers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLPhysicsPapers", function() { return HLPhysicsPapers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLAppliedMathsPapers", function() { return HLAppliedMathsPapers; });
+const HLMathsPapers = [
     {
         tipe: "ExamPaper",
         year: "2019",
@@ -3341,7 +3341,7 @@ const MathsPapers = [
         link: "https://drive.google.com/open?id=1UlNcocsJNVJ0Exy_5HlhcDTJXOdPARWj",
     },
 ];
-const DCGPapers = [
+const HLDCGPapers = [
     {
         tipe: "ExamPaper",
         year: "2019",
@@ -3530,8 +3530,8 @@ const DCGPapers = [
         link: "https://drive.google.com/open?id=17IS7_uY3liOUjBzBHM4e4cA1r01Ncsa1",
     },
 ];
-const PhysicsPapers = [];
-const AppliedMathsPapers = [
+const HLPhysicsPapers = [];
+const HLAppliedMathsPapers = [
     {
         tipe: "ExamPaper",
         year: "2019",
@@ -3816,11 +3816,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home */ "./src/app/home/index.ts");
 /* harmony import */ var _higher_level__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./higher-level */ "./src/app/higher-level/index.ts");
-/* harmony import */ var _higher_level_maths__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./higher-level/maths */ "./src/app/higher-level/maths/index.ts");
-/* harmony import */ var _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./higher-level/applied-maths */ "./src/app/higher-level/applied-maths/index.ts");
-/* harmony import */ var _higher_level_physics__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./higher-level/physics */ "./src/app/higher-level/physics/index.ts");
-/* harmony import */ var _higher_level_dcg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./higher-level/dcg */ "./src/app/higher-level/dcg/index.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _ordinary_level__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ordinary-level */ "./src/app/ordinary-level/index.ts");
+/* harmony import */ var _higher_level_home__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./higher-level/home */ "./src/app/higher-level/home/index.ts");
+/* harmony import */ var _higher_level_maths__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./higher-level/maths */ "./src/app/higher-level/maths/index.ts");
+/* harmony import */ var _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./higher-level/applied-maths */ "./src/app/higher-level/applied-maths/index.ts");
+/* harmony import */ var _higher_level_physics__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./higher-level/physics */ "./src/app/higher-level/physics/index.ts");
+/* harmony import */ var _higher_level_dcg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./higher-level/dcg */ "./src/app/higher-level/dcg/index.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
+
 
 
 
@@ -3845,12 +3849,14 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
         _home__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
-        _higher_level_maths__WEBPACK_IMPORTED_MODULE_8__["MathsComponent"],
-        _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_9__["AppliedMathsComponent"],
-        _higher_level_physics__WEBPACK_IMPORTED_MODULE_10__["PhysicsComponent"],
-        _higher_level_dcg__WEBPACK_IMPORTED_MODULE_11__["DcgComponent"],
-        _higher_level__WEBPACK_IMPORTED_MODULE_7__["HigherLevelComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_12__["RouterModule"]] }); })();
+        _higher_level__WEBPACK_IMPORTED_MODULE_7__["HigherLevelComponent"],
+        _ordinary_level__WEBPACK_IMPORTED_MODULE_8__["OrdinaryLevelComponent"],
+        _higher_level_home__WEBPACK_IMPORTED_MODULE_9__["HLHomeComponent"],
+        _higher_level_maths__WEBPACK_IMPORTED_MODULE_10__["HLMathsComponent"],
+        _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_11__["HLAppliedMathsComponent"],
+        _higher_level_physics__WEBPACK_IMPORTED_MODULE_12__["HLPhysicsComponent"],
+        _higher_level_dcg__WEBPACK_IMPORTED_MODULE_13__["HLDcgComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_14__["RouterModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
@@ -3862,11 +3868,13 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
                 declarations: [
                     _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
                     _home__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
-                    _higher_level_maths__WEBPACK_IMPORTED_MODULE_8__["MathsComponent"],
-                    _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_9__["AppliedMathsComponent"],
-                    _higher_level_physics__WEBPACK_IMPORTED_MODULE_10__["PhysicsComponent"],
-                    _higher_level_dcg__WEBPACK_IMPORTED_MODULE_11__["DcgComponent"],
                     _higher_level__WEBPACK_IMPORTED_MODULE_7__["HigherLevelComponent"],
+                    _ordinary_level__WEBPACK_IMPORTED_MODULE_8__["OrdinaryLevelComponent"],
+                    _higher_level_home__WEBPACK_IMPORTED_MODULE_9__["HLHomeComponent"],
+                    _higher_level_maths__WEBPACK_IMPORTED_MODULE_10__["HLMathsComponent"],
+                    _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_11__["HLAppliedMathsComponent"],
+                    _higher_level_physics__WEBPACK_IMPORTED_MODULE_12__["HLPhysicsComponent"],
+                    _higher_level_dcg__WEBPACK_IMPORTED_MODULE_13__["HLDcgComponent"],
                 ],
                 providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_3__["HashLocationStrategy"] }],
                 bootstrap: [
@@ -3891,10 +3899,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ "./src/app/home/index.ts");
 /* harmony import */ var _higher_level__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./higher-level */ "./src/app/higher-level/index.ts");
-/* harmony import */ var _higher_level_maths__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./higher-level/maths */ "./src/app/higher-level/maths/index.ts");
-/* harmony import */ var _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./higher-level/applied-maths */ "./src/app/higher-level/applied-maths/index.ts");
-/* harmony import */ var _higher_level_physics__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./higher-level/physics */ "./src/app/higher-level/physics/index.ts");
-/* harmony import */ var _higher_level_dcg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./higher-level/dcg */ "./src/app/higher-level/dcg/index.ts");
+/* harmony import */ var _ordinary_level__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ordinary-level */ "./src/app/ordinary-level/index.ts");
+/* harmony import */ var _higher_level_home__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./higher-level/home */ "./src/app/higher-level/home/index.ts");
+/* harmony import */ var _higher_level_maths__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./higher-level/maths */ "./src/app/higher-level/maths/index.ts");
+/* harmony import */ var _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./higher-level/applied-maths */ "./src/app/higher-level/applied-maths/index.ts");
+/* harmony import */ var _higher_level_physics__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./higher-level/physics */ "./src/app/higher-level/physics/index.ts");
+/* harmony import */ var _higher_level_dcg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./higher-level/dcg */ "./src/app/higher-level/dcg/index.ts");
+
+
 
 
 
@@ -3912,27 +3924,36 @@ const routes = [
         component: _higher_level__WEBPACK_IMPORTED_MODULE_2__["HigherLevelComponent"],
         children: [
             {
+                path: 'home',
+                component: _higher_level_home__WEBPACK_IMPORTED_MODULE_4__["HLHomeComponent"],
+            },
+            {
                 path: 'applied-maths',
-                component: _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_4__["AppliedMathsComponent"],
+                component: _higher_level_applied_maths__WEBPACK_IMPORTED_MODULE_6__["HLAppliedMathsComponent"],
             },
             {
                 path: 'maths',
-                component: _higher_level_maths__WEBPACK_IMPORTED_MODULE_3__["MathsComponent"],
+                component: _higher_level_maths__WEBPACK_IMPORTED_MODULE_5__["HLMathsComponent"],
             },
             {
                 path: 'physics',
-                component: _higher_level_physics__WEBPACK_IMPORTED_MODULE_5__["PhysicsComponent"],
+                component: _higher_level_physics__WEBPACK_IMPORTED_MODULE_7__["HLPhysicsComponent"],
             },
             {
                 path: 'dcg',
-                component: _higher_level_dcg__WEBPACK_IMPORTED_MODULE_6__["DcgComponent"],
+                component: _higher_level_dcg__WEBPACK_IMPORTED_MODULE_8__["HLDcgComponent"],
             },
             {
                 path: '**',
-                redirectTo: '',
+                redirectTo: 'home',
                 pathMatch: 'full'
             },
-        ]
+        ],
+    },
+    {
+        path: 'ordinary-level',
+        component: _ordinary_level__WEBPACK_IMPORTED_MODULE_3__["OrdinaryLevelComponent"],
+        children: [],
     },
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
@@ -3946,12 +3967,12 @@ const appRoutingModule = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterMod
 /*!***********************************************************************!*\
   !*** ./src/app/higher-level/applied-maths/applied-maths.component.ts ***!
   \***********************************************************************/
-/*! exports provided: AppliedMathsComponent */
+/*! exports provided: HLAppliedMathsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppliedMathsComponent", function() { return AppliedMathsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLAppliedMathsComponent", function() { return HLAppliedMathsComponent; });
 /* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
@@ -3961,7 +3982,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function AppliedMathsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+function HLAppliedMathsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Exam Paper ");
@@ -3972,7 +3993,7 @@ function AppliedMathsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r0.paperLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-function AppliedMathsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+function HLAppliedMathsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
@@ -3983,7 +4004,7 @@ function AppliedMathsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r1.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-class AppliedMathsComponent {
+class HLAppliedMathsComponent {
     constructor(formBuilder) {
         this.formBuilder = formBuilder;
         this.hasPaper = false;
@@ -3998,7 +4019,7 @@ class AppliedMathsComponent {
         this.year = this.checkoutForm.get('year').value;
         this.hasPaper = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["AppliedMathsPapers"]) {
+        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLAppliedMathsPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     this.hasPaper = true;
@@ -4012,8 +4033,8 @@ class AppliedMathsComponent {
         }
     }
 }
-AppliedMathsComponent.ɵfac = function AppliedMathsComponent_Factory(t) { return new (t || AppliedMathsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
-AppliedMathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppliedMathsComponent, selectors: [["app-higher-level-applied-maths"]], decls: 12, vars: 3, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function AppliedMathsComponent_Template(rf, ctx) { if (rf & 1) {
+HLAppliedMathsComponent.ɵfac = function HLAppliedMathsComponent_Factory(t) { return new (t || HLAppliedMathsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
+HLAppliedMathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HLAppliedMathsComponent, selectors: [["app-higher-level-applied-maths"]], decls: 12, vars: 3, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLAppliedMathsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "body");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
@@ -4021,16 +4042,16 @@ AppliedMathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵde
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "form", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function AppliedMathsComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function HLAppliedMathsComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "input", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, AppliedMathsComponent_div_9_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, HLAppliedMathsComponent_div_9_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, AppliedMathsComponent_div_11_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, HLAppliedMathsComponent_div_11_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -4043,7 +4064,7 @@ AppliedMathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵde
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasMark);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9hcHBsaWVkLW1hdGhzL2FwcGxpZWQtbWF0aHMuY29tcG9uZW50LmNzcyJ9 */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppliedMathsComponent, [{
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](HLAppliedMathsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
         args: [{
                 selector: 'app-higher-level-applied-maths',
@@ -4059,13 +4080,13 @@ AppliedMathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵde
 /*!*****************************************************!*\
   !*** ./src/app/higher-level/applied-maths/index.ts ***!
   \*****************************************************/
-/*! exports provided: AppliedMathsComponent */
+/*! exports provided: HLAppliedMathsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _applied_maths_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./applied-maths.component */ "./src/app/higher-level/applied-maths/applied-maths.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AppliedMathsComponent", function() { return _applied_maths_component__WEBPACK_IMPORTED_MODULE_0__["AppliedMathsComponent"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HLAppliedMathsComponent", function() { return _applied_maths_component__WEBPACK_IMPORTED_MODULE_0__["HLAppliedMathsComponent"]; });
 
 
 
@@ -4076,12 +4097,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!***************************************************!*\
   !*** ./src/app/higher-level/dcg/dcg.component.ts ***!
   \***************************************************/
-/*! exports provided: DcgComponent */
+/*! exports provided: HLDcgComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DcgComponent", function() { return DcgComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLDcgComponent", function() { return HLDcgComponent; });
 /* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
@@ -4091,7 +4112,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function DcgComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+function HLDcgComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Section A ");
@@ -4102,7 +4123,7 @@ function DcgComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r0.sectionALink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-function DcgComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+function HLDcgComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Section B/C ");
@@ -4113,7 +4134,7 @@ function DcgComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r1.sectionBLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-function DcgComponent_div_13_Template(rf, ctx) { if (rf & 1) {
+function HLDcgComponent_div_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
@@ -4124,7 +4145,7 @@ function DcgComponent_div_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r2.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-class DcgComponent {
+class HLDcgComponent {
     constructor(formBuilder) {
         this.formBuilder = formBuilder;
         this.hasSectionA = false;
@@ -4142,7 +4163,7 @@ class DcgComponent {
         this.hasSectionA = false;
         this.hasSectionB = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["DCGPapers"]) {
+        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLDCGPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "A") {
@@ -4162,8 +4183,8 @@ class DcgComponent {
         }
     }
 }
-DcgComponent.ɵfac = function DcgComponent_Factory(t) { return new (t || DcgComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
-DcgComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: DcgComponent, selectors: [["app-dcg"]], decls: 14, vars: 4, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function DcgComponent_Template(rf, ctx) { if (rf & 1) {
+HLDcgComponent.ɵfac = function HLDcgComponent_Factory(t) { return new (t || HLDcgComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
+HLDcgComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HLDcgComponent, selectors: [["app-dcg"]], decls: 14, vars: 4, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLDcgComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "body");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
@@ -4171,19 +4192,19 @@ DcgComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "form", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function DcgComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function HLDcgComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "input", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, DcgComponent_div_9_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, HLDcgComponent_div_9_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, DcgComponent_div_11_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, HLDcgComponent_div_11_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, DcgComponent_div_13_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, HLDcgComponent_div_13_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -4198,7 +4219,7 @@ DcgComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasMark);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9kY2cvZGNnLmNvbXBvbmVudC5jc3MifQ== */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](DcgComponent, [{
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](HLDcgComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
         args: [{
                 selector: 'app-dcg',
@@ -4214,13 +4235,13 @@ DcgComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCompo
 /*!*******************************************!*\
   !*** ./src/app/higher-level/dcg/index.ts ***!
   \*******************************************/
-/*! exports provided: DcgComponent */
+/*! exports provided: HLDcgComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _dcg_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dcg.component */ "./src/app/higher-level/dcg/dcg.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DcgComponent", function() { return _dcg_component__WEBPACK_IMPORTED_MODULE_0__["DcgComponent"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HLDcgComponent", function() { return _dcg_component__WEBPACK_IMPORTED_MODULE_0__["HLDcgComponent"]; });
 
 
 
@@ -4245,7 +4266,7 @@ __webpack_require__.r(__webpack_exports__);
 class HigherLevelComponent {
 }
 HigherLevelComponent.ɵfac = function HigherLevelComponent_Factory(t) { return new (t || HigherLevelComponent)(); };
-HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HigherLevelComponent, selectors: [["ng-component"]], decls: 30, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level", 1, "active"], [1, "TopBar"], ["routerLink", "/higher-level/maths"], ["routerLink", "/higher-level/applied-maths"], ["routerLink", "/higher-level/physics"], ["routerLink", "/higher-level/dcg"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function HigherLevelComponent_Template(rf, ctx) { if (rf & 1) {
+HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HigherLevelComponent, selectors: [["ng-component"]], decls: 30, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level", 1, "active"], ["routerLink", "/ordinary-level"], [1, "TopBar"], ["routerLink", "/higher-level/maths"], ["routerLink", "/higher-level/applied-maths"], ["routerLink", "/higher-level/physics"], ["routerLink", "/higher-level/dcg"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function HigherLevelComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -4259,40 +4280,40 @@ HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Ordinary Level");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Maths");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Applied Maths");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Physics");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "DCG");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -4306,6 +4327,66 @@ HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
                 styleUrls: ['./higher-level.component.css']
             }]
     }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/higher-level/home/home.component.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/higher-level/home/home.component.ts ***!
+  \*****************************************************/
+/*! exports provided: HLHomeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLHomeComponent", function() { return HLHomeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class HLHomeComponent {
+}
+HLHomeComponent.ɵfac = function HLHomeComponent_Factory(t) { return new (t || HLHomeComponent)(); };
+HLHomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HLHomeComponent, selectors: [["ng-component"]], decls: 8, vars: 0, consts: [[1, "Title"], [1, "Intro"]], template: function HLHomeComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Higher Level Examination Papers");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Please select a subject");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: [".Title[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\r\n  color: aliceblue;\r\n}\r\n\r\n.Intro[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  color: rgb(68, 142, 207);\r\n}\r\n\r\n.Intro[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n  padding: 16px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGlnaGVyLWxldmVsL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0Usd0JBQXdCO0FBQzFCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLGFBQWE7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5UaXRsZSBoMSB7XHJcbiAgY29sb3I6IGFsaWNlYmx1ZTtcclxufVxyXG5cclxuLkludHJvIGEge1xyXG4gIGNvbG9yOiByZ2IoNjgsIDE0MiwgMjA3KTtcclxufVxyXG5cclxuLkludHJvIGxpIHtcclxuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgcGFkZGluZzogMTZweDtcclxufSJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HLHomeComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                templateUrl: 'home.component.html',
+                styleUrls: ['./home.component.css']
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/higher-level/home/index.ts":
+/*!********************************************!*\
+  !*** ./src/app/higher-level/home/index.ts ***!
+  \********************************************/
+/*! exports provided: HLHomeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _home_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.component */ "./src/app/higher-level/home/home.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HLHomeComponent", function() { return _home_component__WEBPACK_IMPORTED_MODULE_0__["HLHomeComponent"]; });
+
+
 
 
 /***/ }),
@@ -4331,13 +4412,13 @@ __webpack_require__.r(__webpack_exports__);
 /*!*********************************************!*\
   !*** ./src/app/higher-level/maths/index.ts ***!
   \*********************************************/
-/*! exports provided: MathsComponent */
+/*! exports provided: HLMathsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _maths_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./maths.component */ "./src/app/higher-level/maths/maths.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MathsComponent", function() { return _maths_component__WEBPACK_IMPORTED_MODULE_0__["MathsComponent"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HLMathsComponent", function() { return _maths_component__WEBPACK_IMPORTED_MODULE_0__["HLMathsComponent"]; });
 
 
 
@@ -4348,12 +4429,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!*******************************************************!*\
   !*** ./src/app/higher-level/maths/maths.component.ts ***!
   \*******************************************************/
-/*! exports provided: MathsComponent */
+/*! exports provided: HLMathsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MathsComponent", function() { return MathsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLMathsComponent", function() { return HLMathsComponent; });
 /* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
@@ -4363,7 +4444,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function MathsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+function HLMathsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Paper One ");
@@ -4374,7 +4455,7 @@ function MathsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r0.oneLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-function MathsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+function HLMathsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Paper Two ");
@@ -4385,7 +4466,7 @@ function MathsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r1.twoLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-function MathsComponent_div_13_Template(rf, ctx) { if (rf & 1) {
+function HLMathsComponent_div_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
@@ -4396,7 +4477,7 @@ function MathsComponent_div_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r2.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-class MathsComponent {
+class HLMathsComponent {
     constructor(formBuilder) {
         this.formBuilder = formBuilder;
         this.hasOne = false;
@@ -4414,7 +4495,7 @@ class MathsComponent {
         this.hasOne = false;
         this.hasTwo = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["MathsPapers"]) {
+        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLMathsPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "One") {
@@ -4434,8 +4515,8 @@ class MathsComponent {
         }
     }
 }
-MathsComponent.ɵfac = function MathsComponent_Factory(t) { return new (t || MathsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
-MathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: MathsComponent, selectors: [["app-maths"]], decls: 14, vars: 4, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function MathsComponent_Template(rf, ctx) { if (rf & 1) {
+HLMathsComponent.ɵfac = function HLMathsComponent_Factory(t) { return new (t || HLMathsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
+HLMathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HLMathsComponent, selectors: [["app-maths"]], decls: 14, vars: 4, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLMathsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "body");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
@@ -4443,19 +4524,19 @@ MathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "form", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function MathsComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function HLMathsComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "input", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, MathsComponent_div_9_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, HLMathsComponent_div_9_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, MathsComponent_div_11_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, HLMathsComponent_div_11_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, MathsComponent_div_13_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, HLMathsComponent_div_13_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -4470,7 +4551,7 @@ MathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasMark);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9tYXRocy9tYXRocy5jb21wb25lbnQuY3NzIn0= */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](MathsComponent, [{
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](HLMathsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
         args: [{
                 selector: 'app-maths',
@@ -4486,13 +4567,13 @@ MathsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCom
 /*!***********************************************!*\
   !*** ./src/app/higher-level/physics/index.ts ***!
   \***********************************************/
-/*! exports provided: PhysicsComponent */
+/*! exports provided: HLPhysicsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _physics_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./physics.component */ "./src/app/higher-level/physics/physics.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhysicsComponent", function() { return _physics_component__WEBPACK_IMPORTED_MODULE_0__["PhysicsComponent"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HLPhysicsComponent", function() { return _physics_component__WEBPACK_IMPORTED_MODULE_0__["HLPhysicsComponent"]; });
 
 
 
@@ -4503,12 +4584,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!***********************************************************!*\
   !*** ./src/app/higher-level/physics/physics.component.ts ***!
   \***********************************************************/
-/*! exports provided: PhysicsComponent */
+/*! exports provided: HLPhysicsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhysicsComponent", function() { return PhysicsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLPhysicsComponent", function() { return HLPhysicsComponent; });
 /* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
@@ -4518,7 +4599,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function PhysicsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+function HLPhysicsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Exam Paper ");
@@ -4529,7 +4610,7 @@ function PhysicsComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r0.paperLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-function PhysicsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+function HLPhysicsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
@@ -4540,7 +4621,7 @@ function PhysicsComponent_div_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r1.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
-class PhysicsComponent {
+class HLPhysicsComponent {
     constructor(formBuilder) {
         this.formBuilder = formBuilder;
         this.hasPaper = false;
@@ -4555,7 +4636,7 @@ class PhysicsComponent {
         this.year = this.checkoutForm.get('year').value;
         this.hasPaper = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["PhysicsPapers"]) {
+        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLPhysicsPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     this.hasPaper = true;
@@ -4569,8 +4650,8 @@ class PhysicsComponent {
         }
     }
 }
-PhysicsComponent.ɵfac = function PhysicsComponent_Factory(t) { return new (t || PhysicsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
-PhysicsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: PhysicsComponent, selectors: [["app-physics"]], decls: 12, vars: 3, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function PhysicsComponent_Template(rf, ctx) { if (rf & 1) {
+HLPhysicsComponent.ɵfac = function HLPhysicsComponent_Factory(t) { return new (t || HLPhysicsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
+HLPhysicsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HLPhysicsComponent, selectors: [["app-physics"]], decls: 12, vars: 3, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLPhysicsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "body");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
@@ -4578,16 +4659,16 @@ PhysicsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "form", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function PhysicsComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function HLPhysicsComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "input", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, PhysicsComponent_div_9_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, HLPhysicsComponent_div_9_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, PhysicsComponent_div_11_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, HLPhysicsComponent_div_11_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -4600,7 +4681,7 @@ PhysicsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasMark);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9waHlzaWNzL3BoeXNpY3MuY29tcG9uZW50LmNzcyJ9 */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](PhysicsComponent, [{
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](HLPhysicsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
         args: [{
                 selector: 'app-physics',
@@ -4630,7 +4711,7 @@ __webpack_require__.r(__webpack_exports__);
 class HomeComponent {
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 22, vars: 0, consts: [[1, "head"], ["routerLink", "/", 1, "active"], ["routerLink", "/higher-level"], ["routerLink", "/"], [1, "Title"], [1, "Intro"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 22, vars: 0, consts: [[1, "head"], ["routerLink", "/", 1, "active"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level"], [1, "Title"], [1, "Intro"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -4694,6 +4775,85 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return _home_component__WEBPACK_IMPORTED_MODULE_0__["HomeComponent"]; });
 
 
+
+
+/***/ }),
+
+/***/ "./src/app/ordinary-level/index.ts":
+/*!*****************************************!*\
+  !*** ./src/app/ordinary-level/index.ts ***!
+  \*****************************************/
+/*! exports provided: OrdinaryLevelComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ordinary_level_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ordinary-level.component */ "./src/app/ordinary-level/ordinary-level.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OrdinaryLevelComponent", function() { return _ordinary_level_component__WEBPACK_IMPORTED_MODULE_0__["OrdinaryLevelComponent"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/ordinary-level/ordinary-level.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/ordinary-level/ordinary-level.component.ts ***!
+  \************************************************************/
+/*! exports provided: OrdinaryLevelComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OrdinaryLevelComponent", function() { return OrdinaryLevelComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
+
+
+class OrdinaryLevelComponent {
+}
+OrdinaryLevelComponent.ɵfac = function OrdinaryLevelComponent_Factory(t) { return new (t || OrdinaryLevelComponent)(); };
+OrdinaryLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OrdinaryLevelComponent, selectors: [["ng-component"]], decls: 18, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level", 1, "active"], [1, "TopBar"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function OrdinaryLevelComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Home");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Higher Level");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Ordinary Level");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL29yZGluYXJ5LWxldmVsL29yZGluYXJ5LWxldmVsLmNvbXBvbmVudC5jc3MifQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](OrdinaryLevelComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                templateUrl: 'ordinary-level.component.html',
+                styleUrls: ['./ordinary-level.component.css']
+            }]
+    }], null, null); })();
 
 
 /***/ }),

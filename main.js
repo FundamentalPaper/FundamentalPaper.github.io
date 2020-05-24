@@ -4768,12 +4768,12 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "The Mobile-Friendly Alternative to examinations.ie that doesn't suck quite as hard");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "The minimalist mobile-friendly alternative to examinations.ie");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Plus it's free xx");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "I've added all HL maths, HL DCG, HL applied maths papers, and I'm working on adding OL English, HL physics & maybe both Irish levels");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

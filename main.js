@@ -2982,13 +2982,14 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 /*!***************************!*\
   !*** ./src/app/Papers.ts ***!
   \***************************/
-/*! exports provided: IrishAurals, HLMathsPapers, HLIrishPapers, HLDCGPapers, HLPhysicsPapers, HLAppliedMathsPapers, OLEnglishPapers, OLIrishPapers, OLMathsPapers */
+/*! exports provided: IrishAurals, HLMathsPapers, HLEnglishPapers, HLIrishPapers, HLDCGPapers, HLPhysicsPapers, HLAppliedMathsPapers, OLEnglishPapers, OLIrishPapers, OLMathsPapers */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IrishAurals", function() { return IrishAurals; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLMathsPapers", function() { return HLMathsPapers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLEnglishPapers", function() { return HLEnglishPapers; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLIrishPapers", function() { return HLIrishPapers; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLDCGPapers", function() { return HLDCGPapers; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLPhysicsPapers", function() { return HLPhysicsPapers; });
@@ -3402,6 +3403,331 @@ const HLMathsPapers = [
         year: "2001",
         paper: "",
         link: "https://drive.google.com/open?id=1UlNcocsJNVJ0Exy_5HlhcDTJXOdPARWj",
+    },
+];
+const HLEnglishPapers = [
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1Bg2ya2Mky9wuZwMhTopwS5N0H4pNo3JY",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1DWyS4nMWO721qq8us9iyeV4m5bZAcs8V",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1fcLMJSEbq5WiynDPhqlwcfwyYpAwWFKb",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1HDmG49fmUKx7ummK0MQweATzVLOYfxQo",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1U-rpGcBV--dCS4MplF5_3dwT6lrs9ccW",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1RJhDW_gG_sSDWFMEkyFEgrYWwsrcRVMk",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1rR7Woga_GnytwIC4jR39iIstzj_TOLFo",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1Qpys_gOT0oHGAB1wZ4A1k5CXBwPFcetw",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1i-WXqHMo33dmdJgypcc-DwnLc1gnC7sb",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1r7VdlGUNzp016m4po4erIrp52_0sKfeg",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1oYxGzjycXVxkb9pzgpHZITcuKTbSgOCn",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1-zql2FVxxvBG3LTqK64UMjSLfmXYhzQF",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1P2UF6lvi4WfhhXlyXelI9ZS_ipeuac04",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1bmb-xLlWdF6sUN8Ib2YA6Gkx7QFfhgve",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1JtznQFbIZZ_g5BGU1pHK1yX__OlVqN4J",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2012",
+        link: "https://drive.google.com/open?id=14uuBBBIw4Pib-FDyPu46FjX4HKP9C_WA",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1t_Jb412gmY-7x_OK8YD1G5WsYAjvIThp",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1sEyzaUU_peCy8qQcWKttGovRIRO4wMhL",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1hBYBlmFXu2IwEbrGFS9fUpKIBtpaDtO_",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1vpW9LiwTFVw_icpkF55yP9lpXBmc5VHg",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2009",
+        link: "https://drive.google.com/open?id=1_qezY6Vc1M-0hfvi4qGVxodeOqfzp5sw",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2009",
+        link: "https://drive.google.com/open?id=1GBtvdGS7oFNU2FEgysaLCa4pcD1tG38a",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1y2yh-Tp-4Wm8M-exPk37KhmydgXJ0bah",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2008",
+        link: "https://drive.google.com/open?id=18U5lKJ-FgFArsbRFy4B9UvZtfuz177uD",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1kG7FgAeRQgQuvbMcMLgo4t1HWViTHX8D",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1U32hter8a-hTfjvMzPOFIq3bQVeAk3uJ",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2006",
+        link: "https://drive.google.com/open?id=1IQ8Eea1Twb0Hns3uQgN2Z2dGfog0Z-w0",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2006",
+        link: "https://drive.google.com/open?id=1bdwkn5vi7PirI8u_6eZ8j65gdTBzPUxU",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1cg699ErsXrepKyesOP5gUrpLFO8cbUkA",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1FL_IN17hL2iUokiJuNbt8dTsCW9QBQDx",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1U2ZDn9RKcCkeU4fUlMPAQ9GptH738viw",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1t7gXWVPz9frh2AjRKD--MXX9hhLrEl-j",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1tk3ytx-q8w7iIxEv_o5pSedGkbqavUDJ",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1Ei1cmeNYNdJbCsHlkpDEbBYMtPtRczFv",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1hNd2q6xcUpcqXB8deeYDnx8TWy362THv",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1Rxzt-PUeiRUxdliHYlF1eBS1WHgE97jx",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2001",
+        link: "https://drive.google.com/open?id=16jlDfI2xfVGjbvV-jBsWAIOULVs5BjT3",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2001",
+        link: "https://drive.google.com/open?id=1h1hlp1RjCX48ZQMyXiq671rNMFunqZVW",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1MEjXgKIY9ZY-QeqwGkdRPSTtqVAa3Kt8",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1SVySp9e4KOqZsZtsRj7L55FG4iJLkG-s",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1gsN6sMzFmJdE5GonqPsRhaVg3bpDWP2J",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1VWGe0oBY_eTCDXPrRlXiiXot6gJZnoen",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1yQa6EWXHgIU_7hGN5hpHfI1tCwCp8LdC",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1mWO6XdQKENpzLT7MLOUErvXDfNtrUouH",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1-OfseaMExU6JtLGaXp7AoH0VjBSDZK4_",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1TdwiJNt83yqwYUXYIPj5EBvJW3hIfkUK",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1CIUuvOWBOXsb2QmU54uLx-x5jmK5bmdM",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1cen5XcjcLygdtuC1B9tXVc1TrhFEBJd1",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "https://drive.google.com/open?id=1Qwu2FL_q7Sgq4rzeqEqjc7o3Hoi-4eRR",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1cBQqYLzxCqJBTT45g4A4nkMglw6Nv0Gh",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1T-8TXwGbar_aEebcU1JCsOhXRk1sC3e4",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        link: "https://drive.google.com/open?id=17kEQzonQDpUXFs6EP6z__YAweXeDHExS",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1UWaoDdz2uew-z4h2_pTBQl0ByLfPoxKF",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1pbbqjBFbHOsBaqsc8gOl69cHlVS33iPg",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1tRr5f7a-9drb9rMf8RgY7TM61LBcKXjG",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1Rz4Ze-kbWPuwgktv3w-aICTOFsq-J0hW",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2001",
+        link: "https://drive.google.com/open?id=1Ql50bPzqwWjN1raMt-hFv6Y8kQvNsrDO",
     },
 ];
 const HLIrishPapers = [
@@ -3924,7 +4250,203 @@ const HLDCGPapers = [
         link: "https://drive.google.com/open?id=17IS7_uY3liOUjBzBHM4e4cA1r01Ncsa1",
     },
 ];
-const HLPhysicsPapers = [];
+const HLPhysicsPapers = [
+    {
+        tipe: "ExamPaper",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1fARaqZqUCLWKccMqDp2gKeJPYyI1QCx7",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1HUAw3H0i_2mv-VVXOL7g6Zx6Dv5iIbl2",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1A8k34TMFm5dR2D4h795_uibXR0e2kb7t",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1aZXqc42myao92r2gy4495uWsY3wRBXYG",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1GBKgfVpPqvJxwgujbbTtYZXCzRyT0Vva",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1ngrDppnwkcri-moM_5X_kUfS8Dnz4MxM",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1gZ2FJxrsYm3up8acr8Npg-u02_6n9FWO",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1qGf2SD7JBMTBvvt6FW4pJTJz7IveG2Jc",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1-jl-1Rfd44EIUk1Tgj3VYd6WtD1cmlko",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1aoSjG3yVhVTwrjTi2Qki7DLddICQEixm",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2009",
+        link: "https://drive.google.com/open?id=17bSAd3jdG7wKGiDtEKPcOmP7vUj3IEE_",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1vzxeN981Dc_m7jL-SQWSzaRVq0o637Hk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2007",
+        link: "https://drive.google.com/open?id=17IiY592g_T2w4KlnCQvfuTzejTpzRBd6",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2006",
+        link: "https://drive.google.com/open?id=1FeiW9zQJ96WTKXkJZRzBtaoACkJt8mTw",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1GW0YCqVzyx3OhHN1OI0I5F1LqI1vPm4D",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1VGTEtTvSDubyyqEF34hyR0p7xhuf96Ag",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2003",
+        link: "https://drive.google.com/open?id=122k5pyZ0fFS5gJbKsOlcpfdzhXEr5I28",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1PgtAcBcD5sQkbu79h4wpFGeXsoUNUHGb",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2001",
+        link: "https://drive.google.com/open?id=14T8N9HRlE7TYHqrj2Lbrof0fMFX14Mxo",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2000",
+        link: "https://drive.google.com/open?id=1ytFVjfELP2hed8EuhPhf8UpbFDhXETst",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1V5LRovKqRCJeZ7aBRJGfM5pwR6laMRiz",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1ZjeJNnCUHKS7YwtWX7MP3fcpx40zcd8y",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1D_rhAenUrGnXD9YtG1DmretUzJ8w8X23",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1CAYkB0SzCepfLBXnvl0Wh7C1LQ9hEvBi",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1BQFl8Fl69piZd-o0iyUgRw6c-KJ4O8xc",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1tnhsWT9s4cF-s6fOMucA1-n7H2RMPUYy",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1NSf2vQEsoMVtW_W72uUUecs0HRB5kj2x",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1uwYFK6gQ-hKYzTB9t13sSxVY3vouVcB2",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1YpkCSQPBqCb2fQTuX9SZeYVidd8Qm_eI",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1wlYQkmROUEwixSu4pt14l04WTCdwWR0Y",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "https://drive.google.com/open?id=1Q7j6lud4pyhGWPUV5ZjrS9d8sAzy03xI",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1BSUJlGTzHWjUvw4DRg5OkT5APLYOyD1o",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        link: "https://drive.google.com/open?id=14YJPkp14KWnf0OJSN4d1AlqobnDW2PUW",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        link: "https://drive.google.com/open?id=19KzqOdkiFLIfkVVceeCGBvxcX1-5xMZF",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1hnOAQo3B0oIdibWT5_D0bS1KSwX7DtjI",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1fMwl8FJybUw2Y4Kq71X540ZDVWvR-Xwe",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1dbz2nQ1ZSycOox8okw9OgcTlQck5v4d2",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1--Z5En_9IFKjMThGlVOqsh-rzQlhIhWh",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2001",
+        link: "https://drive.google.com/open?id=124QQgHncyNEmHKuSRdcTF8lSeI1wz6tK",
+    },
+];
 const HLAppliedMathsPapers = [
     {
         tipe: "ExamPaper",
@@ -4220,11 +4742,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _higher_level_physics__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./higher-level/physics */ "./src/app/higher-level/physics/index.ts");
 /* harmony import */ var _higher_level_dcg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./higher-level/dcg */ "./src/app/higher-level/dcg/index.ts");
 /* harmony import */ var _higher_level_irish__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./higher-level/irish */ "./src/app/higher-level/irish/index.ts");
-/* harmony import */ var _ordinary_level_home__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ordinary-level/home */ "./src/app/ordinary-level/home/index.ts");
-/* harmony import */ var _ordinary_level_english__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./ordinary-level/english */ "./src/app/ordinary-level/english/index.ts");
-/* harmony import */ var _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./ordinary-level/irish */ "./src/app/ordinary-level/irish/index.ts");
-/* harmony import */ var _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./ordinary-level/maths */ "./src/app/ordinary-level/maths/index.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _higher_level_english__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./higher-level/english */ "./src/app/higher-level/english/index.ts");
+/* harmony import */ var _ordinary_level_home__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./ordinary-level/home */ "./src/app/ordinary-level/home/index.ts");
+/* harmony import */ var _ordinary_level_english__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./ordinary-level/english */ "./src/app/ordinary-level/english/index.ts");
+/* harmony import */ var _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./ordinary-level/irish */ "./src/app/ordinary-level/irish/index.ts");
+/* harmony import */ var _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./ordinary-level/maths */ "./src/app/ordinary-level/maths/index.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
 
 
 
@@ -4264,11 +4788,12 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
         _higher_level_physics__WEBPACK_IMPORTED_MODULE_12__["HLPhysicsComponent"],
         _higher_level_dcg__WEBPACK_IMPORTED_MODULE_13__["HLDcgComponent"],
         _higher_level_irish__WEBPACK_IMPORTED_MODULE_14__["HLIrishComponent"],
-        _ordinary_level_home__WEBPACK_IMPORTED_MODULE_15__["OLHomeComponent"],
-        _ordinary_level_english__WEBPACK_IMPORTED_MODULE_16__["OLEnglishComponent"],
-        _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_17__["OLIrishComponent"],
-        _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_18__["OLMathsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_19__["RouterModule"]] }); })();
+        _higher_level_english__WEBPACK_IMPORTED_MODULE_15__["HLEnglishComponent"],
+        _ordinary_level_home__WEBPACK_IMPORTED_MODULE_16__["OLHomeComponent"],
+        _ordinary_level_english__WEBPACK_IMPORTED_MODULE_17__["OLEnglishComponent"],
+        _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_18__["OLIrishComponent"],
+        _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_19__["OLMathsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_20__["RouterModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
@@ -4288,10 +4813,11 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
                     _higher_level_physics__WEBPACK_IMPORTED_MODULE_12__["HLPhysicsComponent"],
                     _higher_level_dcg__WEBPACK_IMPORTED_MODULE_13__["HLDcgComponent"],
                     _higher_level_irish__WEBPACK_IMPORTED_MODULE_14__["HLIrishComponent"],
-                    _ordinary_level_home__WEBPACK_IMPORTED_MODULE_15__["OLHomeComponent"],
-                    _ordinary_level_english__WEBPACK_IMPORTED_MODULE_16__["OLEnglishComponent"],
-                    _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_17__["OLIrishComponent"],
-                    _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_18__["OLMathsComponent"],
+                    _higher_level_english__WEBPACK_IMPORTED_MODULE_15__["HLEnglishComponent"],
+                    _ordinary_level_home__WEBPACK_IMPORTED_MODULE_16__["OLHomeComponent"],
+                    _ordinary_level_english__WEBPACK_IMPORTED_MODULE_17__["OLEnglishComponent"],
+                    _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_18__["OLIrishComponent"],
+                    _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_19__["OLMathsComponent"],
                 ],
                 providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_3__["HashLocationStrategy"] }],
                 bootstrap: [
@@ -4323,10 +4849,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _higher_level_physics__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./higher-level/physics */ "./src/app/higher-level/physics/index.ts");
 /* harmony import */ var _higher_level_dcg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./higher-level/dcg */ "./src/app/higher-level/dcg/index.ts");
 /* harmony import */ var _higher_level_irish__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./higher-level/irish */ "./src/app/higher-level/irish/index.ts");
-/* harmony import */ var _ordinary_level_home__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ordinary-level/home */ "./src/app/ordinary-level/home/index.ts");
-/* harmony import */ var _ordinary_level_english__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ordinary-level/english */ "./src/app/ordinary-level/english/index.ts");
-/* harmony import */ var _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ordinary-level/irish */ "./src/app/ordinary-level/irish/index.ts");
-/* harmony import */ var _ordinary_level_maths_maths_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ordinary-level/maths/maths.component */ "./src/app/ordinary-level/maths/maths.component.ts");
+/* harmony import */ var _higher_level_english__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./higher-level/english */ "./src/app/higher-level/english/index.ts");
+/* harmony import */ var _ordinary_level_home__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ordinary-level/home */ "./src/app/ordinary-level/home/index.ts");
+/* harmony import */ var _ordinary_level_english__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ordinary-level/english */ "./src/app/ordinary-level/english/index.ts");
+/* harmony import */ var _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ordinary-level/irish */ "./src/app/ordinary-level/irish/index.ts");
+/* harmony import */ var _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ordinary-level/maths */ "./src/app/ordinary-level/maths/index.ts");
+
 
 
 
@@ -4375,6 +4903,10 @@ const routes = [
                 component: _higher_level_irish__WEBPACK_IMPORTED_MODULE_9__["HLIrishComponent"],
             },
             {
+                path: 'english',
+                component: _higher_level_english__WEBPACK_IMPORTED_MODULE_10__["HLEnglishComponent"],
+            },
+            {
                 path: '**',
                 redirectTo: 'home',
                 pathMatch: 'full'
@@ -4387,19 +4919,19 @@ const routes = [
         children: [
             {
                 path: 'home',
-                component: _ordinary_level_home__WEBPACK_IMPORTED_MODULE_10__["OLHomeComponent"],
+                component: _ordinary_level_home__WEBPACK_IMPORTED_MODULE_11__["OLHomeComponent"],
             },
             {
                 path: 'english',
-                component: _ordinary_level_english__WEBPACK_IMPORTED_MODULE_11__["OLEnglishComponent"],
+                component: _ordinary_level_english__WEBPACK_IMPORTED_MODULE_12__["OLEnglishComponent"],
             },
             {
                 path: 'irish',
-                component: _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_12__["OLIrishComponent"],
+                component: _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_13__["OLIrishComponent"],
             },
             {
                 path: 'maths',
-                component: _ordinary_level_maths_maths_component__WEBPACK_IMPORTED_MODULE_13__["OLMathsComponent"],
+                component: _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_14__["OLMathsComponent"],
             },
             {
                 path: '**',
@@ -4701,6 +5233,161 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/app/higher-level/english/english.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/higher-level/english/english.component.ts ***!
+  \***********************************************************/
+/*! exports provided: HLEnglishComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLEnglishComponent", function() { return HLEnglishComponent; });
+/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+
+
+
+
+function HLEnglishComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Paper One ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r0.oneLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+} }
+function HLEnglishComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Paper Two ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r1.twoLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+} }
+function HLEnglishComponent_div_13_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r2.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+} }
+class HLEnglishComponent {
+    constructor(formBuilder) {
+        this.formBuilder = formBuilder;
+        this.hasOne = false;
+        this.hasTwo = false;
+        this.hasMark = false;
+        this.oneLink = "";
+        this.twoLink = "";
+        this.markLink = "";
+        this.checkoutForm = this.formBuilder.group({
+            year: '',
+        });
+    }
+    onSubmit() {
+        this.year = this.checkoutForm.get('year').value;
+        this.hasOne = false;
+        this.hasTwo = false;
+        this.hasMark = false;
+        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLEnglishPapers"]) {
+            if ((paper.year == this.year)) {
+                if (paper.tipe == "ExamPaper") {
+                    if (paper.paper == "One") {
+                        this.hasOne = true;
+                        this.oneLink = paper.link;
+                    }
+                    else if (paper.paper == "Two") {
+                        this.hasTwo = true;
+                        this.twoLink = paper.link;
+                    }
+                }
+                else {
+                    this.hasMark = true;
+                    this.markLink = paper.link;
+                }
+            }
+        }
+    }
+}
+HLEnglishComponent.ɵfac = function HLEnglishComponent_Factory(t) { return new (t || HLEnglishComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
+HLEnglishComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HLEnglishComponent, selectors: [["app-higher-level-english"]], decls: 14, vars: 4, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLEnglishComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "body");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "English Papers");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "form", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function HLEnglishComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "input", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, HLEnglishComponent_div_9_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, HLEnglishComponent_div_11_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, HLEnglishComponent_div_13_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("formGroup", ctx.checkoutForm);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasOne);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasTwo);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasMark);
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9lbmdsaXNoL2VuZ2xpc2guY29tcG9uZW50LmNzcyJ9 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](HLEnglishComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
+        args: [{
+                selector: 'app-higher-level-english',
+                templateUrl: 'english.component.html',
+                styleUrls: ['english.component.css']
+            }]
+    }], function () { return [{ type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/higher-level/english/index.ts":
+/*!***********************************************!*\
+  !*** ./src/app/higher-level/english/index.ts ***!
+  \***********************************************/
+/*! exports provided: HLEnglishComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _english_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./english.component */ "./src/app/higher-level/english/english.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HLEnglishComponent", function() { return _english_component__WEBPACK_IMPORTED_MODULE_0__["HLEnglishComponent"]; });
+
+
+
+
+/***/ }),
+
 /***/ "./src/app/higher-level/higher-level.component.ts":
 /*!********************************************************!*\
   !*** ./src/app/higher-level/higher-level.component.ts ***!
@@ -4719,7 +5406,7 @@ __webpack_require__.r(__webpack_exports__);
 class HigherLevelComponent {
 }
 HigherLevelComponent.ɵfac = function HigherLevelComponent_Factory(t) { return new (t || HigherLevelComponent)(); };
-HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HigherLevelComponent, selectors: [["ng-component"]], decls: 33, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level", 1, "active"], ["routerLink", "/ordinary-level"], [1, "TopBar"], ["routerLink", "/higher-level/irish"], ["routerLink", "/higher-level/maths"], ["routerLink", "/higher-level/applied-maths"], ["routerLink", "/higher-level/physics"], ["routerLink", "/higher-level/dcg"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function HigherLevelComponent_Template(rf, ctx) { if (rf & 1) {
+HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HigherLevelComponent, selectors: [["ng-component"]], decls: 36, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level", 1, "active"], ["routerLink", "/ordinary-level"], [1, "TopBar"], ["routerLink", "/higher-level/english"], ["routerLink", "/higher-level/irish"], ["routerLink", "/higher-level/maths"], ["routerLink", "/higher-level/applied-maths"], ["routerLink", "/higher-level/physics"], ["routerLink", "/higher-level/dcg"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function HigherLevelComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -4743,36 +5430,41 @@ HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Irish");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "English");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Maths");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Irish");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Applied Maths");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Maths");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Physics");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Applied Maths");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "DCG");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Physics");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "DCG");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -5350,7 +6042,7 @@ __webpack_require__.r(__webpack_exports__);
 class HomeComponent {
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 22, vars: 0, consts: [[1, "head"], ["routerLink", "/", 1, "active"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level"], [1, "Title"], [1, "Intro"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 25, vars: 0, consts: [[1, "head"], ["routerLink", "/", 1, "active"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level"], [1, "Title"], [1, "Intro"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -5384,7 +6076,12 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "I've added all HL maths, HL DCG, HL applied maths papers, and I'm working on adding OL English, HL physics & maybe both Irish levels");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "I've added all HL maths, DCG, Applied Maths, Physics & Irish papers");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "All Ordinary papers are a work-in-progress RN");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -5599,7 +6296,7 @@ OLHomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Please select a subject");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "No ordinary papers available yet sorry :/");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -5978,7 +6675,7 @@ __webpack_require__.r(__webpack_exports__);
 class OrdinaryLevelComponent {
 }
 OrdinaryLevelComponent.ɵfac = function OrdinaryLevelComponent_Factory(t) { return new (t || OrdinaryLevelComponent)(); };
-OrdinaryLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OrdinaryLevelComponent, selectors: [["ng-component"]], decls: 27, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level", 1, "active"], [1, "TopBar"], ["routerLink", "/ordinary-level/english"], ["routerLink", "/ordinary-level/irish"], ["routerLink", "/ordinary-level/maths"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function OrdinaryLevelComponent_Template(rf, ctx) { if (rf & 1) {
+OrdinaryLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OrdinaryLevelComponent, selectors: [["ng-component"]], decls: 18, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level", 1, "active"], [1, "TopBar"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function OrdinaryLevelComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -5999,29 +6696,13 @@ OrdinaryLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "English");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Irish");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Maths");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

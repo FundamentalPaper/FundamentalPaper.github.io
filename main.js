@@ -3639,6 +3639,106 @@ const HLIrishPapers = [
         year: "2000",
         link: "https://drive.google.com/open?id=10ICeC_yOJWala1d66PkWVUOEcpl3OTID",
     },
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2004",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2003",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2002",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2001",
+        link: "",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2000",
+        link: "",
+    },
 ];
 const HLDCGPapers = [
     {
@@ -4807,6 +4907,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 function HLIrishComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
@@ -4832,13 +4933,24 @@ function HLIrishComponent_div_11_Template(rf, ctx) { if (rf & 1) {
 function HLIrishComponent_div_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Aural ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r2.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r2.audioLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+} }
+function HLIrishComponent_div_15_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r3.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
 class HLIrishComponent {
     constructor(formBuilder) {
@@ -4846,9 +4958,11 @@ class HLIrishComponent {
         this.hasOne = false;
         this.hasTwo = false;
         this.hasMark = false;
+        this.hasAudio = false;
         this.oneLink = "";
         this.twoLink = "";
         this.markLink = "";
+        this.audioLink = "";
         this.checkoutForm = this.formBuilder.group({
             year: '',
         });
@@ -4858,8 +4972,15 @@ class HLIrishComponent {
         this.hasOne = false;
         this.hasTwo = false;
         this.hasMark = false;
+        this.hasAudio = false;
+        for (var audio of _Papers__WEBPACK_IMPORTED_MODULE_0__["IrishAurals"]) {
+            if (audio.year == this.year) {
+                this.hasAudio = true;
+                this.audioLink = audio.link;
+            }
+        }
         for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLIrishPapers"]) {
-            if ((paper.year == this.year)) {
+            if (paper.year == this.year) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "One") {
                         this.hasOne = true;
@@ -4879,7 +5000,7 @@ class HLIrishComponent {
     }
 }
 HLIrishComponent.ɵfac = function HLIrishComponent_Factory(t) { return new (t || HLIrishComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
-HLIrishComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HLIrishComponent, selectors: [["app-higher-level-irish"]], decls: 14, vars: 4, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLIrishComponent_Template(rf, ctx) { if (rf & 1) {
+HLIrishComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HLIrishComponent, selectors: [["app-higher-level-irish"]], decls: 16, vars: 5, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLIrishComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "body");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
@@ -4901,6 +5022,9 @@ HLIrishComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, HLIrishComponent_div_13_Template, 3, 1, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](15, HLIrishComponent_div_15_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -4911,6 +5035,8 @@ HLIrishComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasOne);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasTwo);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasAudio);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasMark);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9pcmlzaC9pcmlzaC5jb21wb25lbnQuY3NzIn0= */"] });

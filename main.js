@@ -2978,83 +2978,1375 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
-/***/ "./src/app/Papers.ts":
-/*!***************************!*\
-  !*** ./src/app/Papers.ts ***!
-  \***************************/
-/*! exports provided: IrishAurals, HLMathsPapers, HLEnglishPapers, HLIrishPapers, HLDCGPapers, HLPhysicsPapers, HLAppliedMathsPapers, OLEnglishPapers, OLIrishPapers, OLMathsPapers */
+/***/ "./src/app/Papers/HLAppliedMathsPapers.ts":
+/*!************************************************!*\
+  !*** ./src/app/Papers/HLAppliedMathsPapers.ts ***!
+  \************************************************/
+/*! exports provided: HLAppliedMathsPapers */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IrishAurals", function() { return IrishAurals; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLMathsPapers", function() { return HLMathsPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLEnglishPapers", function() { return HLEnglishPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLIrishPapers", function() { return HLIrishPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLDCGPapers", function() { return HLDCGPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLPhysicsPapers", function() { return HLPhysicsPapers; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLAppliedMathsPapers", function() { return HLAppliedMathsPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLEnglishPapers", function() { return OLEnglishPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLIrishPapers", function() { return OLIrishPapers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLMathsPapers", function() { return OLMathsPapers; });
-const IrishAurals = [
+const HLAppliedMathsPapers = [
     {
+        tipe: "ExamPaper",
         year: "2019",
-        link: "https://www.examinations.ie/archive/exampapers/2019/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=18OalbjR3JV9ShtAQ9_oISxzNbTirr7XO",
     },
     {
+        tipe: "ExamPaper",
         year: "2018",
-        link: "https://www.examinations.ie/archive/exampapers/2018/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=1TRWWlyQvwZWHQDCj0lKNvjutdVjoMzkp",
     },
     {
+        tipe: "ExamPaper",
         year: "2017",
-        link: "https://www.examinations.ie/archive/exampapers/2017/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=1kpn9b-SdoL5xjsrfy4S_-6fhXN77EMvg",
     },
     {
+        tipe: "ExamPaper",
         year: "2016",
-        link: "https://www.examinations.ie/archive/exampapers/2016/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=1QhEUQBwsmtaX8DG2VKQ57b4aKIquayFD",
     },
     {
+        tipe: "ExamPaper",
         year: "2015",
-        link: "https://www.examinations.ie/archive/exampapers/2015/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=1S9sAIOGg1eKEzB6vw0pHousuYOTH_lYH",
     },
     {
+        tipe: "ExamPaper",
         year: "2014",
-        link: "https://www.examinations.ie/archive/exampapers/2014/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=1bYR-B85DiVS0pMQbtviH0ERJOxjWnEDd",
     },
     {
+        tipe: "ExamPaper",
         year: "2013",
-        link: "https://www.examinations.ie/archive/exampapers/2013/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=1wF0LL4FnM8QMIBC-bGmwlmBh7PVvffGw",
     },
     {
+        tipe: "ExamPaper",
         year: "2012",
-        link: "https://www.examinations.ie/archive/exampapers/2012/LC001ZLPO17IV.mp3",
+        link: "https://drive.google.com/open?id=1cU3_A9Y5CmX2gGZ_M0rORiQdINuPFSiy",
     },
     {
+        tipe: "ExamPaper",
         year: "2011",
-        link: "https://www.examinations.ie/archive/exampapers/2011/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=16h7Nd-v1XgmljvYSrT6T5OTGkJSgK5qY",
     },
     {
+        tipe: "ExamPaper",
         year: "2010",
-        link: "https://www.examinations.ie/archive/exampapers/2010/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=1LW5YSeeQfcOjcZSJ7jhArDFdm1C1xeWQ",
     },
     {
+        tipe: "ExamPaper",
         year: "2009",
-        link: "https://www.examinations.ie/archive/exampapers/2009/LC001ZLP017IV.mp3",
+        link: "https://drive.google.com/open?id=1o11M8t6Z3-ZiQbUTxTD-RTra_1r0oTXT",
     },
     {
+        tipe: "ExamPaper",
         year: "2008",
-        link: "https://www.examinations.ie/archive/exampapers/2008/LC001ZLPO17IV.mp3",
+        link: "https://drive.google.com/open?id=1LC1xXWfYFEKSpL1Gy9NRgEFBQxXns0i4",
     },
     {
+        tipe: "ExamPaper",
         year: "2007",
-        link: "https://www.examinations.ie/archive/exampapers/2007/LC001ZLP00IV.mp3",
+        link: "https://drive.google.com/open?id=1RNuJDDDYXCyClHQ_uKT5BAJRpqylFjkz",
     },
     {
+        tipe: "ExamPaper",
         year: "2006",
-        link: "https://drive.google.com/open?id=1yRkjjeqKsXFNdib2gz1PlcZYzWBgifdZ",
+        link: "https://drive.google.com/open?id=1GmdzZN8FQ44s5YO2x0e2Z_tjuSGUaTSw",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1XAKWd89MWtU3RQ5IrUU-jJeHlwj95Bnx",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1kEN4qvQO8uE5wtmYRtdCv3Hr8-N3Nrbs",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1ono2UXJsvr154ZpOMKZyRC0D5DZ2M-Bm",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1vdsO_5trndSHiD2IaasIi890acCNVeik",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2001",
+        link: "https://drive.google.com/open?id=1fSgXcOCbGt99WMPtkSc-GPfTceglopXv",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2000",
+        link: "https://drive.google.com/open?id=1-XVmnM0gTOUQjWwbBQHaGpy7Ep_O-mBB",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "1999",
+        link: "https://drive.google.com/open?id=10AO4fAn5AIRcx86RDyjQStEgUukRpgYd",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "1998",
+        link: "https://drive.google.com/open?id=1wcD_k6mLGpptnr9fuc3zABk61nnmCuFU",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "1997",
+        link: "https://drive.google.com/open?id=1D4NbHe64YGKxyvbgM8C6gn_xcvncP-sd",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "1996",
+        link: "https://drive.google.com/open?id=136klzqJ0IEzzCVCHsVwXeZtlM81-NxDv",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        link: "https://drive.google.com/open?id=18KB0l8KpNufjrluQnlA9V5ayngyZ3uPy",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1dcULeEoT0a0DemDfkJqYswPq_lwfFZkR",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1TvlMxMpKcXvz1mSkHuQ_Ij_09lmSrhSx",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1Yjg-QrU7c8NsLETQiTdtRCjCbLFPLB1w",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1HWvLhZtLmxcIP_kkzr88Ljw5X3wbGWse",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1urQzRPVAEFBCxXUChuTBQPOyOFUd2zYd",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1W_xmlEY8qqIeGadeT0s6_1M_sA0kl5VG",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1o0C-K1OacQQYiMO36STFkn8l6YVhlkVv",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1Ij6tWqmPRjAd-2o4lXUdEogNk_qGrrAK",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1JH5m2anpflCJXXfBhyVxS6bVQKQOxv8w",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "https://drive.google.com/open?id=1RGP3LrCqA6yTVXs1AwYQfrIkz9QB0Kjm",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1at91tqXo-8t7qADThV2Adrd8KTIFS88L",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1QhvRUotZFM34pDTOFOzxDFoaKBmZSXbd",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        link: "https://drive.google.com/open?id=1-Tli7wfllCZrmq0vBPMSaaydfkzRRzXP",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1LaaANcd-INzl2KgZgu51DCMpAhGXH_v4",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1DShteCz0kGZSTxolf7HlWFDAKyOKRGli",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1huuTmRBVtjYAk2WRg-KnZHj5SBCtTRwp",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1zd749H3nyALXKBpEq5hb66fhT3gxdvb6",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2001",
+        link: "https://drive.google.com/open?id=1YArure4t_LHGYKc5g4RZnPxaGIB1WorE",
     },
 ];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/HLDCGPapers.ts":
+/*!***************************************!*\
+  !*** ./src/app/Papers/HLDCGPapers.ts ***!
+  \***************************************/
+/*! exports provided: HLDCGPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLDCGPapers", function() { return HLDCGPapers; });
+const HLDCGPapers = [
+    {
+        tipe: "ExamPaper",
+        year: "2019",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1wkQJiPN5Xyk3FBxcTHkS3p9w2T_p0I2F",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2019",
+        paper: "B",
+        link: "https://drive.google.com/open?id=1WZOfKeaY6HEcroVGAnLfip62AGaaCuGT",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2018",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1srVwRLRGQq6I_2Q-KX4Vxb3GW8kefQdR",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2018",
+        paper: "B",
+        link: "https://drive.google.com/open?id=1B1IEli_01k902_-WZYYdy4hp25lFMTKJ",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2017",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1PjnX62IOALGoZWhrrCg3scSfpTUCPzC7",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2017",
+        paper: "B",
+        link: "https://drive.google.com/open?id=1Ayf59JXr-s0CKAtpGf_Yuv4Tgif2xEKz",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2016",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1DSpum2Pzqfyn2WeEop9MbUHz9A_TI7Cj",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2016",
+        paper: "B",
+        link: "https://drive.google.com/open?id=12wdNdbezTUILvbQEoDJWG-aVuskoTpvO",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2015",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1hFNANpJGg3orD4xu941qNEJg1uDEQ6EG",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2015",
+        paper: "B",
+        link: "https://drive.google.com/open?id=11B58nHadsP3oF-dbwOMnM8ZEWYVP5zVl",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2014",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1-HCDnnrhnz19uyzJRpTmbKBcfhZXgxAt",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2014",
+        paper: "B",
+        link: "https://drive.google.com/open?id=1is5cSeXVDti0cf8mYSFvG7m7aXcHvMk4",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2013",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1JDQWgCQuxeW6gxaIg3bBaEL5g1wQQQ28",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2013",
+        paper: "B",
+        link: "https://drive.google.com/open?id=1-Gr50TinwbeOul1-8WOfRXIxeHWnG7rQ",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2012",
+        paper: "A",
+        link: "https://drive.google.com/open?id=13a9hAcFW5YhHxOW3TDd_az184r0wuu5A",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2012",
+        paper: "B",
+        link: "https://drive.google.com/open?id=1zwGGXfK8L6LA6lut6th3JK9F6bjQteMz",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2011",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1qWjJKMOesE3cWRy34Iujb5ODEBcaeFGd",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2011",
+        paper: "B",
+        link: "https://drive.google.com/open?id=1jAuzwqTPDTJPYglS5tU-TIeCaWHHRFlT",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2010",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1LAqPkuw6ZVhWRbVMHj7LIg9rjsG1Ub_O",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2010",
+        paper: "B",
+        link: "https://drive.google.com/open?id=1NjUPLxmEBbeK0_ZQ-GpzJpOjFmXmuuPG",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2009",
+        paper: "A",
+        link: "https://drive.google.com/open?id=1GrCHEF7aKEPUZd4s2Z7N_QrYSi7MtzJT",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2009",
+        paper: "B",
+        link: "https://drive.google.com/open?id=11b4wI5JuWFRGw3Y2sLKoNxkuB2wc5YF0",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        link: "https://drive.google.com/open?id=10JLAlHZuIY1UdBhzb9wV_zBapiGhtJE-",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1xs8GZDn5ZCP5OC763tb9t9PFUchpnu8W",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1fgHphrTlRT6V_JnLciBc-ys8kek_EbpC",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1vA2JYwr-H7MWpi8jj4ElMWTHRGmKkrgU",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1_5CyZ8WxZuQHxJoxsFwYX756TugDpxz7",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1Eh15W1lIaEE9tWcOmD3UrMescrTjTFtL",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1XY-xO3cJsepVju1fCpnZBmth17Ds0x0F",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1-oC8fbHzmR-pLXTQVEQcZqSIH-R71k-T",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1nB9XOx63GAD6lkKuSF5IHudJwvFUGGrx",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1FJaQZvzotiN12fFwCF1l3lrzLzq0e3YR",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "https://drive.google.com/open?id=17IS7_uY3liOUjBzBHM4e4cA1r01Ncsa1",
+    },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/HLEnglishPapers.ts":
+/*!*******************************************!*\
+  !*** ./src/app/Papers/HLEnglishPapers.ts ***!
+  \*******************************************/
+/*! exports provided: HLEnglishPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLEnglishPapers", function() { return HLEnglishPapers; });
+const HLEnglishPapers = [
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1Bg2ya2Mky9wuZwMhTopwS5N0H4pNo3JY",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1DWyS4nMWO721qq8us9iyeV4m5bZAcs8V",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1fcLMJSEbq5WiynDPhqlwcfwyYpAwWFKb",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1HDmG49fmUKx7ummK0MQweATzVLOYfxQo",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1U-rpGcBV--dCS4MplF5_3dwT6lrs9ccW",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1RJhDW_gG_sSDWFMEkyFEgrYWwsrcRVMk",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1rR7Woga_GnytwIC4jR39iIstzj_TOLFo",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1Qpys_gOT0oHGAB1wZ4A1k5CXBwPFcetw",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1i-WXqHMo33dmdJgypcc-DwnLc1gnC7sb",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1r7VdlGUNzp016m4po4erIrp52_0sKfeg",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1oYxGzjycXVxkb9pzgpHZITcuKTbSgOCn",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1-zql2FVxxvBG3LTqK64UMjSLfmXYhzQF",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1P2UF6lvi4WfhhXlyXelI9ZS_ipeuac04",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1bmb-xLlWdF6sUN8Ib2YA6Gkx7QFfhgve",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1JtznQFbIZZ_g5BGU1pHK1yX__OlVqN4J",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2012",
+        link: "https://drive.google.com/open?id=14uuBBBIw4Pib-FDyPu46FjX4HKP9C_WA",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1t_Jb412gmY-7x_OK8YD1G5WsYAjvIThp",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1sEyzaUU_peCy8qQcWKttGovRIRO4wMhL",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1hBYBlmFXu2IwEbrGFS9fUpKIBtpaDtO_",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1vpW9LiwTFVw_icpkF55yP9lpXBmc5VHg",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2009",
+        link: "https://drive.google.com/open?id=1_qezY6Vc1M-0hfvi4qGVxodeOqfzp5sw",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2009",
+        link: "https://drive.google.com/open?id=1GBtvdGS7oFNU2FEgysaLCa4pcD1tG38a",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1y2yh-Tp-4Wm8M-exPk37KhmydgXJ0bah",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2008",
+        link: "https://drive.google.com/open?id=18U5lKJ-FgFArsbRFy4B9UvZtfuz177uD",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1kG7FgAeRQgQuvbMcMLgo4t1HWViTHX8D",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1U32hter8a-hTfjvMzPOFIq3bQVeAk3uJ",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2006",
+        link: "https://drive.google.com/open?id=1IQ8Eea1Twb0Hns3uQgN2Z2dGfog0Z-w0",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2006",
+        link: "https://drive.google.com/open?id=1bdwkn5vi7PirI8u_6eZ8j65gdTBzPUxU",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1cg699ErsXrepKyesOP5gUrpLFO8cbUkA",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1FL_IN17hL2iUokiJuNbt8dTsCW9QBQDx",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1U2ZDn9RKcCkeU4fUlMPAQ9GptH738viw",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1t7gXWVPz9frh2AjRKD--MXX9hhLrEl-j",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1tk3ytx-q8w7iIxEv_o5pSedGkbqavUDJ",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1Ei1cmeNYNdJbCsHlkpDEbBYMtPtRczFv",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1hNd2q6xcUpcqXB8deeYDnx8TWy362THv",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1Rxzt-PUeiRUxdliHYlF1eBS1WHgE97jx",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2001",
+        link: "https://drive.google.com/open?id=16jlDfI2xfVGjbvV-jBsWAIOULVs5BjT3",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2001",
+        link: "https://drive.google.com/open?id=1h1hlp1RjCX48ZQMyXiq671rNMFunqZVW",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1MEjXgKIY9ZY-QeqwGkdRPSTtqVAa3Kt8",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1SVySp9e4KOqZsZtsRj7L55FG4iJLkG-s",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1gsN6sMzFmJdE5GonqPsRhaVg3bpDWP2J",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1VWGe0oBY_eTCDXPrRlXiiXot6gJZnoen",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1yQa6EWXHgIU_7hGN5hpHfI1tCwCp8LdC",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1mWO6XdQKENpzLT7MLOUErvXDfNtrUouH",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1-OfseaMExU6JtLGaXp7AoH0VjBSDZK4_",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1TdwiJNt83yqwYUXYIPj5EBvJW3hIfkUK",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1CIUuvOWBOXsb2QmU54uLx-x5jmK5bmdM",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1cen5XcjcLygdtuC1B9tXVc1TrhFEBJd1",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "https://drive.google.com/open?id=1Qwu2FL_q7Sgq4rzeqEqjc7o3Hoi-4eRR",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1cBQqYLzxCqJBTT45g4A4nkMglw6Nv0Gh",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1T-8TXwGbar_aEebcU1JCsOhXRk1sC3e4",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        link: "https://drive.google.com/open?id=17kEQzonQDpUXFs6EP6z__YAweXeDHExS",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1UWaoDdz2uew-z4h2_pTBQl0ByLfPoxKF",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1pbbqjBFbHOsBaqsc8gOl69cHlVS33iPg",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1tRr5f7a-9drb9rMf8RgY7TM61LBcKXjG",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1Rz4Ze-kbWPuwgktv3w-aICTOFsq-J0hW",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2001",
+        link: "https://drive.google.com/open?id=1Ql50bPzqwWjN1raMt-hFv6Y8kQvNsrDO",
+    },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/HLFrenchPapers.ts":
+/*!******************************************!*\
+  !*** ./src/app/Papers/HLFrenchPapers.ts ***!
+  \******************************************/
+/*! exports provided: HLFrenchPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLFrenchPapers", function() { return HLFrenchPapers; });
+const HLFrenchPapers = [
+    {
+        tipe: "ExamPaper",
+        year: "2019",
+        link: "https://drive.google.com/file/d/1SdhYnd56S7_1z2DeURa0HkNI0Fbi3wpg/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2018",
+        link: "https://drive.google.com/file/d/1edjNlZd0GuE8fNiS8Z1J9OtVs2-O1jH5/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2017",
+        link: "https://drive.google.com/file/d/197NVpLL6Aqmu-360-v_ZvDuH1HI1RWMa/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2016",
+        link: "https://drive.google.com/file/d/1ehpOoVMS9C1hD2uWmghLsiHdsSRYXChf/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2015",
+        link: "https://drive.google.com/file/d/1K7iBRd1ir76aCYdWpfdM5rcYc-LHN22n/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2014",
+        link: "https://drive.google.com/file/d/1kJ22I44P-_4wKdeGa62tO-8FQ-qnUBH2/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2013",
+        link: "https://drive.google.com/file/d/1vsMFADgeRV1zPI6zPBwVTK0P1nQHEdFQ/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2012",
+        link: "https://drive.google.com/file/d/1zkrMI-2nc3YKSsdX6We1j-QENiw3VJb7/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2011",
+        link: "https://drive.google.com/file/d/1AOJgiE8Ue-mlWcDXuP09BiTy3ru6gStO/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2010",
+        link: "https://drive.google.com/file/d/1SgUEetRjvTeUhmjrrtnel6fOlAz951Zr/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2009",
+        link: "https://drive.google.com/file/d/1HqqcvL8AR4PgSr0-NTR7fMkaMg2_1J6Y/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2008",
+        link: "https://drive.google.com/file/d/1VDwWldvcrQk5vQJcnbnLYhGBqQTRdLvq/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2007",
+        link: "https://drive.google.com/file/d/1lUIvgj1yfTAcdJdtiHSAg8GfXtnfvWct/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2006",
+        link: "https://drive.google.com/file/d/1rId7VjwUgPmZqbRGxHWSwoMJkOaH5kSz/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2005",
+        link: "https://drive.google.com/file/d/18XIF3eva5JRVmxceTqQjSCS3hZYkxD7F/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        link: "https://drive.google.com/file/d/1vjeMnOyuR6eh3NPqWaq3sUs9v5Na0Cj6/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "https://drive.google.com/file/d/1LxaNKyTMUDErsxOeJLpntwOLj9OXIIBf/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "https://drive.google.com/file/d/1RQ6siVEBebFAOL4oo0MofeZLNwnzKTOH/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "https://drive.google.com/file/d/1MJPR9Nn666Wq974QLpTKHPHVrAlif_6M/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "https://drive.google.com/file/d/1e0tcATgOFvSBT86v6NYu50e6Mu55H6-t/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "https://drive.google.com/file/d/1bxKy4OZ_1cHZG16DCaZc7n7yQPw3iHEW/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "https://drive.google.com/file/d/1GFr1mXBgy7bfXa93neDhVk-atUalkE7C/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "https://drive.google.com/file/d/1AEBe8aMqul2YnF-mCvur-179W1MEo7CK/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "https://drive.google.com/file/d/1RblXsSU0KsVs2odQSTRN7QMQH9-zZMu-/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "https://drive.google.com/file/d/1W23UHIuAUSPBibdFS5zJJ2oiIusk2PPK/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "https://drive.google.com/file/d/16ajRxVc9yAiYAFUSLlGZBeeI6nv5Z-XV/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        link: "https://drive.google.com/file/d/1hXRrTAode8FatUqYL_4dYwx2VHxzHvvC/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        link: "https://drive.google.com/file/d/1TO1L9S6O9DkplC2eBT9-B51MoaZaMVpr/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        link: "https://drive.google.com/file/d/1BRkbZzIzBiqKNYhzfASshWBBMFpkJYjO/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        link: "https://drive.google.com/file/d/1mAVNwT4l-rmW-LfGOdRm7AIFBN5y5kZX/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2019",
+        link: "https://drive.google.com/file/d/1NXKkdgsahUFu9mHdfwz6uj7945yhBe2A/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2018",
+        link: "https://drive.google.com/file/d/1dC50nliFF2NJlS_D5kTMhJMwrYxWiVCA/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2017",
+        link: "https://drive.google.com/file/d/1ZobE8LeykdFh9A4jnaXevYfFb-YSeeWr/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2016",
+        link: "https://drive.google.com/file/d/1JD0lpVvQ9zdZY4pQ-lzFuFME24jlYq0p/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2015",
+        link: "https://drive.google.com/file/d/1SPOEACmDS7XTLDjXJLdSItbXa6iCHv2W/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2014",
+        link: "https://drive.google.com/file/d/1GYRmJgvgW4HtAOJRfSViXD7lPxCDwpGm/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2013",
+        link: "https://drive.google.com/file/d/1172o4sZ7rFvjomLEvHLj39LG6kg3eJyY/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2012",
+        link: "https://drive.google.com/file/d/13WcIs6ihSzcp4VhUwYzh5q-S4UgZgfXP/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2011",
+        link: "https://drive.google.com/file/d/1O1H0dL3EXnjpo6Pf6AnKDJLLYNSRpCr-/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2010",
+        link: "https://drive.google.com/file/d/1mjUsoWz9J1y5N9m6hr0_9FU8e2nl18JC/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2009",
+        link: "https://drive.google.com/file/d/1swit_Cuasfw0aUIn--1S_rVLuP6EfGR2/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2008",
+        link: "https://drive.google.com/file/d/156fGoLUg0wrxpUIuiI-mq3WUfNxxANiX/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2007",
+        link: "https://drive.google.com/file/d/1smQD9cj0UZsNo6gg6Y2OoO7G6sG4Xtlc/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2006",
+        link: "https://drive.google.com/file/d/1yxLfkU6z9U3pMpFtM5QFNtQ4UvQYF6Mu/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2005",
+        link: "https://drive.google.com/file/d/13W-rdnOjEIx3coZWZhKoS2ZuuRXwBXz2/view?usp=drivesdk",
+    },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/HLIrishPapers.ts":
+/*!*****************************************!*\
+  !*** ./src/app/Papers/HLIrishPapers.ts ***!
+  \*****************************************/
+/*! exports provided: HLIrishPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLIrishPapers", function() { return HLIrishPapers; });
+const HLIrishPapers = [
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1_DmSN52N1ilR0r_jxgWfWH3SF6OycIs4",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2019",
+        link: "https://drive.google.com/open?id=1kiC8s9d9ktqCvZ6sU3hd-iMRGY6xMxCO",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1F9NXEE4IqGimXAIjRxw3samjCrI1bpdo",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1Ywp-M6-Cbxc3XUcTWtoHkD3nERDyX1B6",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1KjvONO332ZYjfCrpDkL7tcVgybLXWe72",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1DLcY_KE3WV-X9e34OH5A6yw9iktusvWS",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2016",
+        link: "https://drive.google.com/open?id=198rISurdz4msprP994WPEjGf0LRIIcFS",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1KSwTQCxfKBT4X0SO5lqJF4R1RH0Q9pa-",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1Li1e85DS2k3xtR7kQZiBsfwcLoN7k3IU",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1EH_hBlSJPxtn6HGhWXibTaNFa11_rSWE",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1DPo4tRJ3qf5ttBEBH7SUVFX22VfLirGC",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1VsU7aKKT1Nh98E78yrcH-Hhu3D1jK7uE",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1HqB4hTAs1MAhYfyJvsH_3C09KdszUhYZ",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1TOxOsQt1Y_VTIr78fVgT_tq1ovH1LQkg",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1H8Zbb5HPgd4FmQ4NDEKbigondZ5m2oUJ",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1Oy2opsbPrZUlI7xDp3Nst79aGWhGDOsP",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1DzgTI3stzAoeB7S-J4t4KTBRlsFTtvmv",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1gy9IZzLurcdu2gMZYhlqcOqJNXR0f0HG",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1qrqB3VOrZ9UKaWnl1qpMl4QxsqkqjIT4",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2010",
+        link: "https://drive.google.com/open?id=1QJKWQrJV-AOwwfH025KIKOurr96bJ0XT",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2009",
+        link: "https://drive.google.com/open?id=10vMUMv99HiLvXVH_tedVuPIcPXg9qNKM",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2009",
+        link: "https://drive.google.com/open?id=1FleO4arO4Yn86oAE45US6Jh6k1agU5Un",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1VjugwBpDIFVVJAqVmh2rpINmuj8CjES2",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1dRHhCaOa0arkN9ElPE4QFI9k0B2dEx8u",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1UlsCV9fMb4VG_KJKW50Q69GBc8Lq0t68",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1YuBG5KroWT3fPhkvj0XPd3MI9DgWnf0d",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2006",
+        link: "https://drive.google.com/open?id=1t02vsbeNskVkIjo75tOOPxZ8VIuxCcrA",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2006",
+        link: "https://drive.google.com/open?id=1nLaWnisfdssFtLPZqpyrcsdziYoCuYYi",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1BnyYpB1FR3y2jjhOAy-hc9IDYqINLfnw",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1U61E90vVhGKD-EzOJxWAXpEIBx3Q2ZAc",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2004",
+        link: "https://drive.google.com/open?id=11Nz2XPaHxsK72AdcBa3if3LXB1Ft2lBI",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1oiqecZovAIpbiEyVnWPImBxftIpdz5Ma",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1eT_Vq5AIOlX0Ixio1q-3BXNadNps0Nre",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1r4aODpz3kb9NbFcWzPwALcr6cd24rIB9",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1M2pSvcKzA7OMFD9b47AZ6I24O44y-Hr2",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1qL1jIbPNe5QmebBYQEu_sBRFW-gmefzc",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2001",
+        link: "https://drive.google.com/open?id=1kDxyXVQcwhNw1WOw4cNF6EQ86_FNF_M1",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "Two",
+        year: "2001",
+        link: "https://drive.google.com/open?id=1D97BibNm3tNTVzUDHFvUhajlZLqBGZ3T",
+    },
+    {
+        tipe: "ExamPaper",
+        paper: "One",
+        year: "2000",
+        link: "https://drive.google.com/open?id=10ICeC_yOJWala1d66PkWVUOEcpl3OTID",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        link: "https://drive.google.com/open?id=19Hz9nzCHbfKMP_O-pplqUwceQUKUIwzx",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "https://drive.google.com/open?id=1Fr_wXVopr5UMKmom4CrTQ2CKjGGw-gqa",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "https://drive.google.com/open?id=1m2ewJ4_BIcLO47M9riSXkU6RoXXofc5b",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "https://drive.google.com/open?id=1QNeljSdkQ280WTqHwDHJb5KPo6xNH-Gx",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "https://drive.google.com/open?id=1Z9kI9a1SbJyVfBibAYJiSGfutHOu9uiH",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "https://drive.google.com/open?id=1wVCbbSKhehn8LuNzJdmMv_G188Df5Ctc",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "https://drive.google.com/open?id=1iABnTnlXeyrrG-e6xyTs1q28Q85R0XY5",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "https://drive.google.com/open?id=1wINd2Bt8h_ZRmWUhAinm7iyKq6M3grAH",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "https://drive.google.com/open?id=1yWSCGSe4C7Aj_J_C57_CTJ2apmbJKHE4",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "https://drive.google.com/open?id=16L6XQHsycP_vHEKbrfsb0PkOpEjFtaiQ",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "https://drive.google.com/open?id=15GUaFpGz1DhQK5bMF5C4DNoqeebDqO8I",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        link: "https://drive.google.com/open?id=1_zXa_l2Z_b-L9INzLxOUNCiCU_kksJFc",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        link: "https://drive.google.com/open?id=1zsagDl3rQB4xkyayiPFIQPOq6GZsQUXA",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        link: "https://drive.google.com/open?id=1TQI0Mx2UNOeA_Dm4FkymDODp5vBjfmnR",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        link: "https://drive.google.com/open?id=1GZPRTqTaZdl8SD9yxZX3wwR0EGuAEzsq",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2004",
+        link: "https://drive.google.com/open?id=1HANNxQu2SVa2TeYZw7gGjQS1w8GJNgYx",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2003",
+        link: "https://drive.google.com/open?id=1m2INf0TxkPaxfr7_LN8aarAYqcQOb_Vk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2002",
+        link: "https://drive.google.com/open?id=1rHER6GVB4piv85U_XjOguzyO4YVAiCbI",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2001",
+        link: "https://drive.google.com/open?id=14sOq5kZ5oPffpVY44Nv9T-iFSIip0V3S",
+    },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/HLMathsPapers.ts":
+/*!*****************************************!*\
+  !*** ./src/app/Papers/HLMathsPapers.ts ***!
+  \*****************************************/
+/*! exports provided: HLMathsPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLMathsPapers", function() { return HLMathsPapers; });
 const HLMathsPapers = [
     {
         tipe: "ExamPaper",
@@ -3405,851 +4697,20 @@ const HLMathsPapers = [
         link: "https://drive.google.com/open?id=1UlNcocsJNVJ0Exy_5HlhcDTJXOdPARWj",
     },
 ];
-const HLEnglishPapers = [
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2019",
-        link: "https://drive.google.com/open?id=1Bg2ya2Mky9wuZwMhTopwS5N0H4pNo3JY",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2019",
-        link: "https://drive.google.com/open?id=1DWyS4nMWO721qq8us9iyeV4m5bZAcs8V",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2018",
-        link: "https://drive.google.com/open?id=1fcLMJSEbq5WiynDPhqlwcfwyYpAwWFKb",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2018",
-        link: "https://drive.google.com/open?id=1HDmG49fmUKx7ummK0MQweATzVLOYfxQo",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2017",
-        link: "https://drive.google.com/open?id=1U-rpGcBV--dCS4MplF5_3dwT6lrs9ccW",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2017",
-        link: "https://drive.google.com/open?id=1RJhDW_gG_sSDWFMEkyFEgrYWwsrcRVMk",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2016",
-        link: "https://drive.google.com/open?id=1rR7Woga_GnytwIC4jR39iIstzj_TOLFo",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2016",
-        link: "https://drive.google.com/open?id=1Qpys_gOT0oHGAB1wZ4A1k5CXBwPFcetw",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2015",
-        link: "https://drive.google.com/open?id=1i-WXqHMo33dmdJgypcc-DwnLc1gnC7sb",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2015",
-        link: "https://drive.google.com/open?id=1r7VdlGUNzp016m4po4erIrp52_0sKfeg",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2014",
-        link: "https://drive.google.com/open?id=1oYxGzjycXVxkb9pzgpHZITcuKTbSgOCn",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2014",
-        link: "https://drive.google.com/open?id=1-zql2FVxxvBG3LTqK64UMjSLfmXYhzQF",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2013",
-        link: "https://drive.google.com/open?id=1P2UF6lvi4WfhhXlyXelI9ZS_ipeuac04",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2013",
-        link: "https://drive.google.com/open?id=1bmb-xLlWdF6sUN8Ib2YA6Gkx7QFfhgve",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2012",
-        link: "https://drive.google.com/open?id=1JtznQFbIZZ_g5BGU1pHK1yX__OlVqN4J",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2012",
-        link: "https://drive.google.com/open?id=14uuBBBIw4Pib-FDyPu46FjX4HKP9C_WA",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2011",
-        link: "https://drive.google.com/open?id=1t_Jb412gmY-7x_OK8YD1G5WsYAjvIThp",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2011",
-        link: "https://drive.google.com/open?id=1sEyzaUU_peCy8qQcWKttGovRIRO4wMhL",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2010",
-        link: "https://drive.google.com/open?id=1hBYBlmFXu2IwEbrGFS9fUpKIBtpaDtO_",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2010",
-        link: "https://drive.google.com/open?id=1vpW9LiwTFVw_icpkF55yP9lpXBmc5VHg",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2009",
-        link: "https://drive.google.com/open?id=1_qezY6Vc1M-0hfvi4qGVxodeOqfzp5sw",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2009",
-        link: "https://drive.google.com/open?id=1GBtvdGS7oFNU2FEgysaLCa4pcD1tG38a",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2008",
-        link: "https://drive.google.com/open?id=1y2yh-Tp-4Wm8M-exPk37KhmydgXJ0bah",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2008",
-        link: "https://drive.google.com/open?id=18U5lKJ-FgFArsbRFy4B9UvZtfuz177uD",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2007",
-        link: "https://drive.google.com/open?id=1kG7FgAeRQgQuvbMcMLgo4t1HWViTHX8D",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2007",
-        link: "https://drive.google.com/open?id=1U32hter8a-hTfjvMzPOFIq3bQVeAk3uJ",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2006",
-        link: "https://drive.google.com/open?id=1IQ8Eea1Twb0Hns3uQgN2Z2dGfog0Z-w0",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2006",
-        link: "https://drive.google.com/open?id=1bdwkn5vi7PirI8u_6eZ8j65gdTBzPUxU",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2005",
-        link: "https://drive.google.com/open?id=1cg699ErsXrepKyesOP5gUrpLFO8cbUkA",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2005",
-        link: "https://drive.google.com/open?id=1FL_IN17hL2iUokiJuNbt8dTsCW9QBQDx",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2004",
-        link: "https://drive.google.com/open?id=1U2ZDn9RKcCkeU4fUlMPAQ9GptH738viw",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2004",
-        link: "https://drive.google.com/open?id=1t7gXWVPz9frh2AjRKD--MXX9hhLrEl-j",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2003",
-        link: "https://drive.google.com/open?id=1tk3ytx-q8w7iIxEv_o5pSedGkbqavUDJ",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2003",
-        link: "https://drive.google.com/open?id=1Ei1cmeNYNdJbCsHlkpDEbBYMtPtRczFv",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2002",
-        link: "https://drive.google.com/open?id=1hNd2q6xcUpcqXB8deeYDnx8TWy362THv",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2002",
-        link: "https://drive.google.com/open?id=1Rxzt-PUeiRUxdliHYlF1eBS1WHgE97jx",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2001",
-        link: "https://drive.google.com/open?id=16jlDfI2xfVGjbvV-jBsWAIOULVs5BjT3",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2001",
-        link: "https://drive.google.com/open?id=1h1hlp1RjCX48ZQMyXiq671rNMFunqZVW",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2019",
-        link: "https://drive.google.com/open?id=1MEjXgKIY9ZY-QeqwGkdRPSTtqVAa3Kt8",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2018",
-        link: "https://drive.google.com/open?id=1SVySp9e4KOqZsZtsRj7L55FG4iJLkG-s",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2017",
-        link: "https://drive.google.com/open?id=1gsN6sMzFmJdE5GonqPsRhaVg3bpDWP2J",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2016",
-        link: "https://drive.google.com/open?id=1VWGe0oBY_eTCDXPrRlXiiXot6gJZnoen",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2015",
-        link: "https://drive.google.com/open?id=1yQa6EWXHgIU_7hGN5hpHfI1tCwCp8LdC",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2014",
-        link: "https://drive.google.com/open?id=1mWO6XdQKENpzLT7MLOUErvXDfNtrUouH",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2013",
-        link: "https://drive.google.com/open?id=1-OfseaMExU6JtLGaXp7AoH0VjBSDZK4_",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2012",
-        link: "https://drive.google.com/open?id=1TdwiJNt83yqwYUXYIPj5EBvJW3hIfkUK",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2011",
-        link: "https://drive.google.com/open?id=1CIUuvOWBOXsb2QmU54uLx-x5jmK5bmdM",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2010",
-        link: "https://drive.google.com/open?id=1cen5XcjcLygdtuC1B9tXVc1TrhFEBJd1",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2009",
-        link: "https://drive.google.com/open?id=1Qwu2FL_q7Sgq4rzeqEqjc7o3Hoi-4eRR",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2008",
-        link: "https://drive.google.com/open?id=1cBQqYLzxCqJBTT45g4A4nkMglw6Nv0Gh",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2007",
-        link: "https://drive.google.com/open?id=1T-8TXwGbar_aEebcU1JCsOhXRk1sC3e4",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2006",
-        link: "https://drive.google.com/open?id=17kEQzonQDpUXFs6EP6z__YAweXeDHExS",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2005",
-        link: "https://drive.google.com/open?id=1UWaoDdz2uew-z4h2_pTBQl0ByLfPoxKF",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2004",
-        link: "https://drive.google.com/open?id=1pbbqjBFbHOsBaqsc8gOl69cHlVS33iPg",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2003",
-        link: "https://drive.google.com/open?id=1tRr5f7a-9drb9rMf8RgY7TM61LBcKXjG",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2002",
-        link: "https://drive.google.com/open?id=1Rz4Ze-kbWPuwgktv3w-aICTOFsq-J0hW",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2001",
-        link: "https://drive.google.com/open?id=1Ql50bPzqwWjN1raMt-hFv6Y8kQvNsrDO",
-    },
-];
-const HLIrishPapers = [
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2019",
-        link: "https://drive.google.com/open?id=1_DmSN52N1ilR0r_jxgWfWH3SF6OycIs4",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2019",
-        link: "https://drive.google.com/open?id=1kiC8s9d9ktqCvZ6sU3hd-iMRGY6xMxCO",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2018",
-        link: "https://drive.google.com/open?id=1F9NXEE4IqGimXAIjRxw3samjCrI1bpdo",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2018",
-        link: "https://drive.google.com/open?id=1Ywp-M6-Cbxc3XUcTWtoHkD3nERDyX1B6",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2017",
-        link: "https://drive.google.com/open?id=1KjvONO332ZYjfCrpDkL7tcVgybLXWe72",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2017",
-        link: "https://drive.google.com/open?id=1DLcY_KE3WV-X9e34OH5A6yw9iktusvWS",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2016",
-        link: "https://drive.google.com/open?id=198rISurdz4msprP994WPEjGf0LRIIcFS",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2016",
-        link: "https://drive.google.com/open?id=1KSwTQCxfKBT4X0SO5lqJF4R1RH0Q9pa-",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2015",
-        link: "https://drive.google.com/open?id=1Li1e85DS2k3xtR7kQZiBsfwcLoN7k3IU",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2015",
-        link: "https://drive.google.com/open?id=1EH_hBlSJPxtn6HGhWXibTaNFa11_rSWE",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2014",
-        link: "https://drive.google.com/open?id=1DPo4tRJ3qf5ttBEBH7SUVFX22VfLirGC",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2014",
-        link: "https://drive.google.com/open?id=1VsU7aKKT1Nh98E78yrcH-Hhu3D1jK7uE",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2013",
-        link: "https://drive.google.com/open?id=1HqB4hTAs1MAhYfyJvsH_3C09KdszUhYZ",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2013",
-        link: "https://drive.google.com/open?id=1TOxOsQt1Y_VTIr78fVgT_tq1ovH1LQkg",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2012",
-        link: "https://drive.google.com/open?id=1H8Zbb5HPgd4FmQ4NDEKbigondZ5m2oUJ",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2012",
-        link: "https://drive.google.com/open?id=1Oy2opsbPrZUlI7xDp3Nst79aGWhGDOsP",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2011",
-        link: "https://drive.google.com/open?id=1DzgTI3stzAoeB7S-J4t4KTBRlsFTtvmv",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2011",
-        link: "https://drive.google.com/open?id=1gy9IZzLurcdu2gMZYhlqcOqJNXR0f0HG",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2010",
-        link: "https://drive.google.com/open?id=1qrqB3VOrZ9UKaWnl1qpMl4QxsqkqjIT4",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2010",
-        link: "https://drive.google.com/open?id=1QJKWQrJV-AOwwfH025KIKOurr96bJ0XT",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2009",
-        link: "https://drive.google.com/open?id=10vMUMv99HiLvXVH_tedVuPIcPXg9qNKM",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2009",
-        link: "https://drive.google.com/open?id=1FleO4arO4Yn86oAE45US6Jh6k1agU5Un",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2008",
-        link: "https://drive.google.com/open?id=1VjugwBpDIFVVJAqVmh2rpINmuj8CjES2",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2008",
-        link: "https://drive.google.com/open?id=1dRHhCaOa0arkN9ElPE4QFI9k0B2dEx8u",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2007",
-        link: "https://drive.google.com/open?id=1UlsCV9fMb4VG_KJKW50Q69GBc8Lq0t68",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2007",
-        link: "https://drive.google.com/open?id=1YuBG5KroWT3fPhkvj0XPd3MI9DgWnf0d",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2006",
-        link: "https://drive.google.com/open?id=1t02vsbeNskVkIjo75tOOPxZ8VIuxCcrA",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2006",
-        link: "https://drive.google.com/open?id=1nLaWnisfdssFtLPZqpyrcsdziYoCuYYi",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2005",
-        link: "https://drive.google.com/open?id=1BnyYpB1FR3y2jjhOAy-hc9IDYqINLfnw",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2005",
-        link: "https://drive.google.com/open?id=1U61E90vVhGKD-EzOJxWAXpEIBx3Q2ZAc",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2004",
-        link: "https://drive.google.com/open?id=11Nz2XPaHxsK72AdcBa3if3LXB1Ft2lBI",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2004",
-        link: "https://drive.google.com/open?id=1oiqecZovAIpbiEyVnWPImBxftIpdz5Ma",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2003",
-        link: "https://drive.google.com/open?id=1eT_Vq5AIOlX0Ixio1q-3BXNadNps0Nre",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2003",
-        link: "https://drive.google.com/open?id=1r4aODpz3kb9NbFcWzPwALcr6cd24rIB9",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2002",
-        link: "https://drive.google.com/open?id=1M2pSvcKzA7OMFD9b47AZ6I24O44y-Hr2",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2002",
-        link: "https://drive.google.com/open?id=1qL1jIbPNe5QmebBYQEu_sBRFW-gmefzc",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2001",
-        link: "https://drive.google.com/open?id=1kDxyXVQcwhNw1WOw4cNF6EQ86_FNF_M1",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "Two",
-        year: "2001",
-        link: "https://drive.google.com/open?id=1D97BibNm3tNTVzUDHFvUhajlZLqBGZ3T",
-    },
-    {
-        tipe: "ExamPaper",
-        paper: "One",
-        year: "2000",
-        link: "https://drive.google.com/open?id=10ICeC_yOJWala1d66PkWVUOEcpl3OTID",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2019",
-        link: "https://drive.google.com/open?id=19Hz9nzCHbfKMP_O-pplqUwceQUKUIwzx",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2018",
-        link: "https://drive.google.com/open?id=1Fr_wXVopr5UMKmom4CrTQ2CKjGGw-gqa",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2017",
-        link: "https://drive.google.com/open?id=1m2ewJ4_BIcLO47M9riSXkU6RoXXofc5b",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2016",
-        link: "https://drive.google.com/open?id=1QNeljSdkQ280WTqHwDHJb5KPo6xNH-Gx",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2015",
-        link: "https://drive.google.com/open?id=1Z9kI9a1SbJyVfBibAYJiSGfutHOu9uiH",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2014",
-        link: "https://drive.google.com/open?id=1wVCbbSKhehn8LuNzJdmMv_G188Df5Ctc",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2013",
-        link: "https://drive.google.com/open?id=1iABnTnlXeyrrG-e6xyTs1q28Q85R0XY5",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2012",
-        link: "https://drive.google.com/open?id=1wINd2Bt8h_ZRmWUhAinm7iyKq6M3grAH",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2011",
-        link: "https://drive.google.com/open?id=1yWSCGSe4C7Aj_J_C57_CTJ2apmbJKHE4",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2010",
-        link: "https://drive.google.com/open?id=16L6XQHsycP_vHEKbrfsb0PkOpEjFtaiQ",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2009",
-        link: "https://drive.google.com/open?id=15GUaFpGz1DhQK5bMF5C4DNoqeebDqO8I",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2008",
-        link: "https://drive.google.com/open?id=1_zXa_l2Z_b-L9INzLxOUNCiCU_kksJFc",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2007",
-        link: "https://drive.google.com/open?id=1zsagDl3rQB4xkyayiPFIQPOq6GZsQUXA",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2006",
-        link: "https://drive.google.com/open?id=1TQI0Mx2UNOeA_Dm4FkymDODp5vBjfmnR",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2005",
-        link: "https://drive.google.com/open?id=1GZPRTqTaZdl8SD9yxZX3wwR0EGuAEzsq",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2004",
-        link: "https://drive.google.com/open?id=1HANNxQu2SVa2TeYZw7gGjQS1w8GJNgYx",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2003",
-        link: "https://drive.google.com/open?id=1m2INf0TxkPaxfr7_LN8aarAYqcQOb_Vk",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2002",
-        link: "https://drive.google.com/open?id=1rHER6GVB4piv85U_XjOguzyO4YVAiCbI",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2001",
-        link: "https://drive.google.com/open?id=14sOq5kZ5oPffpVY44Nv9T-iFSIip0V3S",
-    },
-];
-const HLDCGPapers = [
-    {
-        tipe: "ExamPaper",
-        year: "2019",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1wkQJiPN5Xyk3FBxcTHkS3p9w2T_p0I2F",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2019",
-        paper: "B",
-        link: "https://drive.google.com/open?id=1WZOfKeaY6HEcroVGAnLfip62AGaaCuGT",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2018",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1srVwRLRGQq6I_2Q-KX4Vxb3GW8kefQdR",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2018",
-        paper: "B",
-        link: "https://drive.google.com/open?id=1B1IEli_01k902_-WZYYdy4hp25lFMTKJ",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2017",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1PjnX62IOALGoZWhrrCg3scSfpTUCPzC7",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2017",
-        paper: "B",
-        link: "https://drive.google.com/open?id=1Ayf59JXr-s0CKAtpGf_Yuv4Tgif2xEKz",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2016",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1DSpum2Pzqfyn2WeEop9MbUHz9A_TI7Cj",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2016",
-        paper: "B",
-        link: "https://drive.google.com/open?id=12wdNdbezTUILvbQEoDJWG-aVuskoTpvO",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2015",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1hFNANpJGg3orD4xu941qNEJg1uDEQ6EG",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2015",
-        paper: "B",
-        link: "https://drive.google.com/open?id=11B58nHadsP3oF-dbwOMnM8ZEWYVP5zVl",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2014",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1-HCDnnrhnz19uyzJRpTmbKBcfhZXgxAt",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2014",
-        paper: "B",
-        link: "https://drive.google.com/open?id=1is5cSeXVDti0cf8mYSFvG7m7aXcHvMk4",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2013",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1JDQWgCQuxeW6gxaIg3bBaEL5g1wQQQ28",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2013",
-        paper: "B",
-        link: "https://drive.google.com/open?id=1-Gr50TinwbeOul1-8WOfRXIxeHWnG7rQ",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2012",
-        paper: "A",
-        link: "https://drive.google.com/open?id=13a9hAcFW5YhHxOW3TDd_az184r0wuu5A",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2012",
-        paper: "B",
-        link: "https://drive.google.com/open?id=1zwGGXfK8L6LA6lut6th3JK9F6bjQteMz",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2011",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1qWjJKMOesE3cWRy34Iujb5ODEBcaeFGd",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2011",
-        paper: "B",
-        link: "https://drive.google.com/open?id=1jAuzwqTPDTJPYglS5tU-TIeCaWHHRFlT",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2010",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1LAqPkuw6ZVhWRbVMHj7LIg9rjsG1Ub_O",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2010",
-        paper: "B",
-        link: "https://drive.google.com/open?id=1NjUPLxmEBbeK0_ZQ-GpzJpOjFmXmuuPG",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2009",
-        paper: "A",
-        link: "https://drive.google.com/open?id=1GrCHEF7aKEPUZd4s2Z7N_QrYSi7MtzJT",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2009",
-        paper: "B",
-        link: "https://drive.google.com/open?id=11b4wI5JuWFRGw3Y2sLKoNxkuB2wc5YF0",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2019",
-        link: "https://drive.google.com/open?id=10JLAlHZuIY1UdBhzb9wV_zBapiGhtJE-",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2018",
-        link: "https://drive.google.com/open?id=1xs8GZDn5ZCP5OC763tb9t9PFUchpnu8W",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2017",
-        link: "https://drive.google.com/open?id=1fgHphrTlRT6V_JnLciBc-ys8kek_EbpC",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2016",
-        link: "https://drive.google.com/open?id=1vA2JYwr-H7MWpi8jj4ElMWTHRGmKkrgU",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2015",
-        link: "https://drive.google.com/open?id=1_5CyZ8WxZuQHxJoxsFwYX756TugDpxz7",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2014",
-        link: "https://drive.google.com/open?id=1Eh15W1lIaEE9tWcOmD3UrMescrTjTFtL",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2013",
-        link: "https://drive.google.com/open?id=1XY-xO3cJsepVju1fCpnZBmth17Ds0x0F",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2012",
-        link: "https://drive.google.com/open?id=1-oC8fbHzmR-pLXTQVEQcZqSIH-R71k-T",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2011",
-        link: "https://drive.google.com/open?id=1nB9XOx63GAD6lkKuSF5IHudJwvFUGGrx",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2010",
-        link: "https://drive.google.com/open?id=1FJaQZvzotiN12fFwCF1l3lrzLzq0e3YR",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2009",
-        link: "https://drive.google.com/open?id=17IS7_uY3liOUjBzBHM4e4cA1r01Ncsa1",
-    },
-];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/HLPhysicsPapers.ts":
+/*!*******************************************!*\
+  !*** ./src/app/Papers/HLPhysicsPapers.ts ***!
+  \*******************************************/
+/*! exports provided: HLPhysicsPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLPhysicsPapers", function() { return HLPhysicsPapers; });
 const HLPhysicsPapers = [
     {
         tipe: "ExamPaper",
@@ -4447,223 +4908,20 @@ const HLPhysicsPapers = [
         link: "https://drive.google.com/open?id=124QQgHncyNEmHKuSRdcTF8lSeI1wz6tK",
     },
 ];
-const HLAppliedMathsPapers = [
-    {
-        tipe: "ExamPaper",
-        year: "2019",
-        link: "https://drive.google.com/open?id=18OalbjR3JV9ShtAQ9_oISxzNbTirr7XO",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2018",
-        link: "https://drive.google.com/open?id=1TRWWlyQvwZWHQDCj0lKNvjutdVjoMzkp",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2017",
-        link: "https://drive.google.com/open?id=1kpn9b-SdoL5xjsrfy4S_-6fhXN77EMvg",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2016",
-        link: "https://drive.google.com/open?id=1QhEUQBwsmtaX8DG2VKQ57b4aKIquayFD",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2015",
-        link: "https://drive.google.com/open?id=1S9sAIOGg1eKEzB6vw0pHousuYOTH_lYH",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2014",
-        link: "https://drive.google.com/open?id=1bYR-B85DiVS0pMQbtviH0ERJOxjWnEDd",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2013",
-        link: "https://drive.google.com/open?id=1wF0LL4FnM8QMIBC-bGmwlmBh7PVvffGw",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2012",
-        link: "https://drive.google.com/open?id=1cU3_A9Y5CmX2gGZ_M0rORiQdINuPFSiy",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2011",
-        link: "https://drive.google.com/open?id=16h7Nd-v1XgmljvYSrT6T5OTGkJSgK5qY",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2010",
-        link: "https://drive.google.com/open?id=1LW5YSeeQfcOjcZSJ7jhArDFdm1C1xeWQ",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2009",
-        link: "https://drive.google.com/open?id=1o11M8t6Z3-ZiQbUTxTD-RTra_1r0oTXT",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2008",
-        link: "https://drive.google.com/open?id=1LC1xXWfYFEKSpL1Gy9NRgEFBQxXns0i4",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2007",
-        link: "https://drive.google.com/open?id=1RNuJDDDYXCyClHQ_uKT5BAJRpqylFjkz",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2006",
-        link: "https://drive.google.com/open?id=1GmdzZN8FQ44s5YO2x0e2Z_tjuSGUaTSw",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2005",
-        link: "https://drive.google.com/open?id=1XAKWd89MWtU3RQ5IrUU-jJeHlwj95Bnx",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2004",
-        link: "https://drive.google.com/open?id=1kEN4qvQO8uE5wtmYRtdCv3Hr8-N3Nrbs",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2003",
-        link: "https://drive.google.com/open?id=1ono2UXJsvr154ZpOMKZyRC0D5DZ2M-Bm",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2002",
-        link: "https://drive.google.com/open?id=1vdsO_5trndSHiD2IaasIi890acCNVeik",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2001",
-        link: "https://drive.google.com/open?id=1fSgXcOCbGt99WMPtkSc-GPfTceglopXv",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "2000",
-        link: "https://drive.google.com/open?id=1-XVmnM0gTOUQjWwbBQHaGpy7Ep_O-mBB",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "1999",
-        link: "https://drive.google.com/open?id=10AO4fAn5AIRcx86RDyjQStEgUukRpgYd",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "1998",
-        link: "https://drive.google.com/open?id=1wcD_k6mLGpptnr9fuc3zABk61nnmCuFU",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "1997",
-        link: "https://drive.google.com/open?id=1D4NbHe64YGKxyvbgM8C6gn_xcvncP-sd",
-    },
-    {
-        tipe: "ExamPaper",
-        year: "1996",
-        link: "https://drive.google.com/open?id=136klzqJ0IEzzCVCHsVwXeZtlM81-NxDv",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2019",
-        link: "https://drive.google.com/open?id=18KB0l8KpNufjrluQnlA9V5ayngyZ3uPy",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2018",
-        link: "https://drive.google.com/open?id=1dcULeEoT0a0DemDfkJqYswPq_lwfFZkR",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2017",
-        link: "https://drive.google.com/open?id=1TvlMxMpKcXvz1mSkHuQ_Ij_09lmSrhSx",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2016",
-        link: "https://drive.google.com/open?id=1Yjg-QrU7c8NsLETQiTdtRCjCbLFPLB1w",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2015",
-        link: "https://drive.google.com/open?id=1HWvLhZtLmxcIP_kkzr88Ljw5X3wbGWse",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2014",
-        link: "https://drive.google.com/open?id=1urQzRPVAEFBCxXUChuTBQPOyOFUd2zYd",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2013",
-        link: "https://drive.google.com/open?id=1W_xmlEY8qqIeGadeT0s6_1M_sA0kl5VG",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2012",
-        link: "https://drive.google.com/open?id=1o0C-K1OacQQYiMO36STFkn8l6YVhlkVv",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2011",
-        link: "https://drive.google.com/open?id=1Ij6tWqmPRjAd-2o4lXUdEogNk_qGrrAK",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2010",
-        link: "https://drive.google.com/open?id=1JH5m2anpflCJXXfBhyVxS6bVQKQOxv8w",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2009",
-        link: "https://drive.google.com/open?id=1RGP3LrCqA6yTVXs1AwYQfrIkz9QB0Kjm",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2008",
-        link: "https://drive.google.com/open?id=1at91tqXo-8t7qADThV2Adrd8KTIFS88L",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2007",
-        link: "https://drive.google.com/open?id=1QhvRUotZFM34pDTOFOzxDFoaKBmZSXbd",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2006",
-        link: "https://drive.google.com/open?id=1-Tli7wfllCZrmq0vBPMSaaydfkzRRzXP",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2005",
-        link: "https://drive.google.com/open?id=1LaaANcd-INzl2KgZgu51DCMpAhGXH_v4",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2004",
-        link: "https://drive.google.com/open?id=1DShteCz0kGZSTxolf7HlWFDAKyOKRGli",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2003",
-        link: "https://drive.google.com/open?id=1huuTmRBVtjYAk2WRg-KnZHj5SBCtTRwp",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2002",
-        link: "https://drive.google.com/open?id=1zd749H3nyALXKBpEq5hb66fhT3gxdvb6",
-    },
-    {
-        tipe: "MarkingScheme",
-        year: "2001",
-        link: "https://drive.google.com/open?id=1YArure4t_LHGYKc5g4RZnPxaGIB1WorE",
-    },
-];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/OLEnglishPapers.ts":
+/*!*******************************************!*\
+  !*** ./src/app/Papers/OLEnglishPapers.ts ***!
+  \*******************************************/
+/*! exports provided: OLEnglishPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLEnglishPapers", function() { return OLEnglishPapers; });
 const OLEnglishPapers = [
     {
         tipe: "ExamPaper",
@@ -4989,8 +5247,440 @@ const OLEnglishPapers = [
         link: "https://drive.google.com/open?id=1fgFxB9ozI4jsnZckfUou5ByONHORQm08",
     },
 ];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/OLFrenchPapers.ts":
+/*!******************************************!*\
+  !*** ./src/app/Papers/OLFrenchPapers.ts ***!
+  \******************************************/
+/*! exports provided: OLFrenchPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLFrenchPapers", function() { return OLFrenchPapers; });
+const OLFrenchPapers = [
+    {
+        tipe: "MarkingScheme",
+        year: "2019",
+        link: "https://drive.google.com/file/d/1RrCPwRe-3nnHHlh1T66eFqmAJLRJ08dr/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2018",
+        link: "https://drive.google.com/file/d/1N91ZMzXxE8EUc8FoZH_wxmMr1DdqUIfi/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2017",
+        link: "https://drive.google.com/file/d/1uU6iqD0VgDm-14gIxSQhU6PauhjnG6N2/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2016",
+        link: "https://drive.google.com/file/d/1F3mktn3rlJ5PLLXupRNSrqtnhrRC1Hte/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2015",
+        link: "https://drive.google.com/file/d/1vdTL4DP2pwPU-tN2Gvclf34_k3aq18Jy/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2014",
+        link: "https://drive.google.com/file/d/1Oe1QYCYZyXJg8kBrZ9RQi6XW2FweZcVf/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2013",
+        link: "https://drive.google.com/file/d/1rZBMbIDX5yN-HtAr2eRzQHt6oABD2zBO/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2012",
+        link: "https://drive.google.com/file/d/1O6op-L1mig7b6IiIuufbT1hiq8xMrgs9/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2011",
+        link: "https://drive.google.com/file/d/1ctSfuJZjb2MJfVhN1yBdMHM9DoHccduw/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2010",
+        link: "https://drive.google.com/file/d/1KNx0wocJQgrvvqWRKIGVbPWVycdXovTH/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2009",
+        link: "https://drive.google.com/file/d/1NyNSgSu1DWyZMbIM1F8-CQNUoWhO7259/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2008",
+        link: "https://drive.google.com/file/d/1eDKa30d4UheWVHDQ8aWfws6MH1SYn2IM/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2007",
+        link: "https://drive.google.com/file/d/1Y7FnUYcF2KT2ZTWsxcN2NF5iYnzag6jT/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2006",
+        link: "https://drive.google.com/file/d/1-hhYqRqk5FOCr--wNxK4i8CuonWXg0Tj/view?usp=drivesdk",
+    },
+    {
+        tipe: "MarkingScheme",
+        year: "2005",
+        link: "https://drive.google.com/file/d/1mAt-S0ZYRuXnO3UI9HIkpaflC9GidMXN/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2019",
+        link: "https://drive.google.com/file/d/1T8DZK5o_-AlHpA6fws1ke3K1sRwMW1Jc/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2018",
+        link: "https://drive.google.com/file/d/1wnnIoo_sOwSPkxX6mgQZkjNK4H9X88fG/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2017",
+        link: "https://drive.google.com/file/d/1DvEmIV2xy0NFLEV0b3NykebmNea6qFUy/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2016",
+        link: "https://drive.google.com/file/d/14oKomA6KE0hUSaBNmacGmRP9mjCT23s6/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2015",
+        link: "https://drive.google.com/file/d/1WLyx5Y8c_8jx9GsB4CbnKlmLvwRzcxBr/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2013",
+        link: "https://drive.google.com/file/d/1fMhhQqJnPkInCBlW4gdd6eHZH_u6XAUZ/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2014",
+        link: "https://drive.google.com/file/d/1WxfNapYkUNuTwQqSGPgRCxjILHelTXBi/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2012",
+        link: "https://drive.google.com/file/d/10g8iJaafVr-oBiTSYrIL04kQbTUFGQVY/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2011",
+        link: "https://drive.google.com/file/d/1OL4qAPaeGTWcaexYCvGaFqKVBmzNKAaq/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2010",
+        link: "https://drive.google.com/file/d/1KzndArkdP5Ak3ixeUmWpMznolV0A4dtL/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2009",
+        link: "https://drive.google.com/file/d/1EZB-7NBUg9GmLmL5Fkt3bXlxLluJ0gA6/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2008",
+        link: "https://drive.google.com/file/d/1TzLM0AIVNmzo0Y87ILDpZ85dNLhVijUb/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2007",
+        link: "https://drive.google.com/file/d/1ktbwRm0ux4uur-Z5r7_KXEAj3y1WNOOW/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2006",
+        link: "https://drive.google.com/file/d/1XSLGx6-mBHJh8lVbS8EkEYy9a8TYoVBj/view?usp=drivesdk",
+    },
+    {
+        tipe: "ExamPaper",
+        year: "2005",
+        link: "https://drive.google.com/file/d/14dFW12NbUvMozZiEbmh4Sv1EhVjQVNt6/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2019",
+        link: "https://drive.google.com/file/d/1SCIp1HNRIWskmaAgpVCWBqBQcbmHYVCf/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2018",
+        link: "https://drive.google.com/file/d/1z5i2zXaYP9Zqf5w5tuPAY6NqvRo3e8HV/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2017",
+        link: "https://drive.google.com/file/d/16st7_fEglKgCTNQib_zmWcj75bzeGaZ0/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2016",
+        link: "https://drive.google.com/file/d/1DgOCv_bTKWDX6VrhrKHUXCipJAsstMnC/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2015",
+        link: "https://drive.google.com/file/d/1mBEowM0I5INGvyG_MhEzHssjh7G3R5he/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2014",
+        link: "https://drive.google.com/file/d/1lWeVpgY33DYn18cqPYAPG1H_Nys50_Wm/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2013",
+        link: "https://drive.google.com/file/d/11U0gg2prsSayYp60j0X6Uqe9Jm_I8VTa/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2012",
+        link: "https://drive.google.com/file/d/1Qv4MAGFhZ5YAR50yHCZHFt5Az8IQ4Rh8/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2011",
+        link: "https://drive.google.com/file/d/1zHz3L7doG3UVyJ5tB3LZfOWHlV8CZjom/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2010",
+        link: "https://drive.google.com/file/d/1Uoucqe63_C5AsC4VXqHD1g2sLYXQEIPR/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2009",
+        link: "https://drive.google.com/file/d/1xd_7mkAtu3MsF2BNPEb8361ESxI-nNr3/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2008",
+        link: "https://drive.google.com/file/d/19s1Vm_D31wU2-dcYZkzO-wFeTP4oMRUt/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2007",
+        link: "https://drive.google.com/file/d/1VaAxwPsEYctpSwooe4n8gWZoxSXn904_/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2006",
+        link: "https://drive.google.com/file/d/1l0a_fkg-__s_zH6szUmiSJXi0pK_hU-i/view?usp=drivesdk",
+    },
+    {
+        tipe: "AuralPaper",
+        year: "2005",
+        link: "https://drive.google.com/file/d/1Fw6HCsSzz-sf_pP9K2_ON5SCeOMka5pG/view?usp=drivesdk",
+    },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/OLIrishPapers.ts":
+/*!*****************************************!*\
+  !*** ./src/app/Papers/OLIrishPapers.ts ***!
+  \*****************************************/
+/*! exports provided: OLIrishPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLIrishPapers", function() { return OLIrishPapers; });
 const OLIrishPapers = [];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/OLMathsPapers.ts":
+/*!*****************************************!*\
+  !*** ./src/app/Papers/OLMathsPapers.ts ***!
+  \*****************************************/
+/*! exports provided: OLMathsPapers */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLMathsPapers", function() { return OLMathsPapers; });
 const OLMathsPapers = [];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/SoundFilesFrench.ts":
+/*!********************************************!*\
+  !*** ./src/app/Papers/SoundFilesFrench.ts ***!
+  \********************************************/
+/*! exports provided: SoundFilesFrench */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SoundFilesFrench", function() { return SoundFilesFrench; });
+const SoundFilesFrench = [
+    {
+        tipe: "SoundFile",
+        year: "2005",
+        link: "https://drive.google.com/file/d/1NL8HdMC6mchCz6YZkzTvwlsxYidxTaN6/view?usp=sharing",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2006",
+        link: "https://drive.google.com/file/d/18RJmTKcotbzx2biiytrGaJ2JYBZRCnZc/view?usp=sharing",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2007",
+        link: "https://www.examinations.ie/archive/exampapers/2007/LC010ZLPO17EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2008",
+        link: "https://www.examinations.ie/archive/exampapers/2008/LC010ZLPO17EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2009",
+        link: "https://www.examinations.ie/archive/exampapers/2009/LC010ZLP017EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2010",
+        link: "https://www.examinations.ie/archive/exampapers/2010/LC010ZLP017EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2011",
+        link: "https://www.examinations.ie/archive/exampapers/2011/LC010ZLP017EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2012",
+        link: "https://www.examinations.ie/archive/exampapers/2012/LC010ZLPO17EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2013",
+        link: "https://www.examinations.ie/archive/exampapers/2013/LC010ZLP017EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2014",
+        link: "https://www.examinations.ie/archive/exampapers/2014/LC010ZLP017EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2015",
+        link: "https://www.examinations.ie/archive/exampapers/2015/LC010ZLP017EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2016",
+        link: "https://www.examinations.ie/archive/exampapers/2016/LC010ZLP017EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2017",
+        link: "https://www.examinations.ie/archive/exampapers/2017/LC010ZLP017EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2018",
+        link: "https://www.examinations.ie/archive/exampapers/2018/LC010ZLP017EV.mp3",
+    },
+    {
+        tipe: "SoundFile",
+        year: "2019",
+        link: "https://www.examinations.ie/archive/exampapers/2019/LC010ZLP017EV.mp3",
+    },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/Papers/SoundFilesIrish.ts":
+/*!*******************************************!*\
+  !*** ./src/app/Papers/SoundFilesIrish.ts ***!
+  \*******************************************/
+/*! exports provided: SoundFilesIrish */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SoundFilesIrish", function() { return SoundFilesIrish; });
+const SoundFilesIrish = [
+    {
+        year: "2019",
+        link: "https://www.examinations.ie/archive/exampapers/2019/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2018",
+        link: "https://www.examinations.ie/archive/exampapers/2018/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2017",
+        link: "https://www.examinations.ie/archive/exampapers/2017/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2016",
+        link: "https://www.examinations.ie/archive/exampapers/2016/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2015",
+        link: "https://www.examinations.ie/archive/exampapers/2015/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2014",
+        link: "https://www.examinations.ie/archive/exampapers/2014/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2013",
+        link: "https://www.examinations.ie/archive/exampapers/2013/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2012",
+        link: "https://www.examinations.ie/archive/exampapers/2012/LC001ZLPO17IV.mp3",
+    },
+    {
+        year: "2011",
+        link: "https://www.examinations.ie/archive/exampapers/2011/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2010",
+        link: "https://www.examinations.ie/archive/exampapers/2010/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2009",
+        link: "https://www.examinations.ie/archive/exampapers/2009/LC001ZLP017IV.mp3",
+    },
+    {
+        year: "2008",
+        link: "https://www.examinations.ie/archive/exampapers/2008/LC001ZLPO17IV.mp3",
+    },
+    {
+        year: "2007",
+        link: "https://www.examinations.ie/archive/exampapers/2007/LC001ZLP00IV.mp3",
+    },
+    {
+        year: "2006",
+        link: "https://drive.google.com/open?id=1yRkjjeqKsXFNdib2gz1PlcZYzWBgifdZ",
+    },
+];
 
 
 /***/ }),
@@ -5067,11 +5757,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _higher_level_dcg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./higher-level/dcg */ "./src/app/higher-level/dcg/index.ts");
 /* harmony import */ var _higher_level_irish__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./higher-level/irish */ "./src/app/higher-level/irish/index.ts");
 /* harmony import */ var _higher_level_english__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./higher-level/english */ "./src/app/higher-level/english/index.ts");
-/* harmony import */ var _ordinary_level_home__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./ordinary-level/home */ "./src/app/ordinary-level/home/index.ts");
-/* harmony import */ var _ordinary_level_english__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./ordinary-level/english */ "./src/app/ordinary-level/english/index.ts");
-/* harmony import */ var _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./ordinary-level/irish */ "./src/app/ordinary-level/irish/index.ts");
-/* harmony import */ var _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./ordinary-level/maths */ "./src/app/ordinary-level/maths/index.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _higher_level_french__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./higher-level/french */ "./src/app/higher-level/french/index.ts");
+/* harmony import */ var _ordinary_level_home__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./ordinary-level/home */ "./src/app/ordinary-level/home/index.ts");
+/* harmony import */ var _ordinary_level_english__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./ordinary-level/english */ "./src/app/ordinary-level/english/index.ts");
+/* harmony import */ var _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./ordinary-level/irish */ "./src/app/ordinary-level/irish/index.ts");
+/* harmony import */ var _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./ordinary-level/maths */ "./src/app/ordinary-level/maths/index.ts");
+/* harmony import */ var _ordinary_level_french__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./ordinary-level/french */ "./src/app/ordinary-level/french/index.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
+
 
 
 
@@ -5113,11 +5807,13 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
         _higher_level_dcg__WEBPACK_IMPORTED_MODULE_13__["HLDcgComponent"],
         _higher_level_irish__WEBPACK_IMPORTED_MODULE_14__["HLIrishComponent"],
         _higher_level_english__WEBPACK_IMPORTED_MODULE_15__["HLEnglishComponent"],
-        _ordinary_level_home__WEBPACK_IMPORTED_MODULE_16__["OLHomeComponent"],
-        _ordinary_level_english__WEBPACK_IMPORTED_MODULE_17__["OLEnglishComponent"],
-        _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_18__["OLIrishComponent"],
-        _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_19__["OLMathsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_20__["RouterModule"]] }); })();
+        _higher_level_french__WEBPACK_IMPORTED_MODULE_16__["HLFrenchComponent"],
+        _ordinary_level_home__WEBPACK_IMPORTED_MODULE_17__["OLHomeComponent"],
+        _ordinary_level_english__WEBPACK_IMPORTED_MODULE_18__["OLEnglishComponent"],
+        _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_19__["OLIrishComponent"],
+        _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_20__["OLMathsComponent"],
+        _ordinary_level_french__WEBPACK_IMPORTED_MODULE_21__["OLFrenchComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_22__["RouterModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
@@ -5138,10 +5834,12 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
                     _higher_level_dcg__WEBPACK_IMPORTED_MODULE_13__["HLDcgComponent"],
                     _higher_level_irish__WEBPACK_IMPORTED_MODULE_14__["HLIrishComponent"],
                     _higher_level_english__WEBPACK_IMPORTED_MODULE_15__["HLEnglishComponent"],
-                    _ordinary_level_home__WEBPACK_IMPORTED_MODULE_16__["OLHomeComponent"],
-                    _ordinary_level_english__WEBPACK_IMPORTED_MODULE_17__["OLEnglishComponent"],
-                    _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_18__["OLIrishComponent"],
-                    _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_19__["OLMathsComponent"],
+                    _higher_level_french__WEBPACK_IMPORTED_MODULE_16__["HLFrenchComponent"],
+                    _ordinary_level_home__WEBPACK_IMPORTED_MODULE_17__["OLHomeComponent"],
+                    _ordinary_level_english__WEBPACK_IMPORTED_MODULE_18__["OLEnglishComponent"],
+                    _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_19__["OLIrishComponent"],
+                    _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_20__["OLMathsComponent"],
+                    _ordinary_level_french__WEBPACK_IMPORTED_MODULE_21__["OLFrenchComponent"],
                 ],
                 providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_3__["HashLocationStrategy"] }],
                 bootstrap: [
@@ -5174,10 +5872,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _higher_level_dcg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./higher-level/dcg */ "./src/app/higher-level/dcg/index.ts");
 /* harmony import */ var _higher_level_irish__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./higher-level/irish */ "./src/app/higher-level/irish/index.ts");
 /* harmony import */ var _higher_level_english__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./higher-level/english */ "./src/app/higher-level/english/index.ts");
-/* harmony import */ var _ordinary_level_home__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ordinary-level/home */ "./src/app/ordinary-level/home/index.ts");
-/* harmony import */ var _ordinary_level_english__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ordinary-level/english */ "./src/app/ordinary-level/english/index.ts");
-/* harmony import */ var _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ordinary-level/irish */ "./src/app/ordinary-level/irish/index.ts");
-/* harmony import */ var _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ordinary-level/maths */ "./src/app/ordinary-level/maths/index.ts");
+/* harmony import */ var _higher_level_french__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./higher-level/french */ "./src/app/higher-level/french/index.ts");
+/* harmony import */ var _ordinary_level_home__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ordinary-level/home */ "./src/app/ordinary-level/home/index.ts");
+/* harmony import */ var _ordinary_level_english__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ordinary-level/english */ "./src/app/ordinary-level/english/index.ts");
+/* harmony import */ var _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ordinary-level/irish */ "./src/app/ordinary-level/irish/index.ts");
+/* harmony import */ var _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ordinary-level/maths */ "./src/app/ordinary-level/maths/index.ts");
+/* harmony import */ var _ordinary_level_french_french_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./ordinary-level/french/french.component */ "./src/app/ordinary-level/french/french.component.ts");
+
+
 
 
 
@@ -5205,6 +5907,10 @@ const routes = [
             {
                 path: 'home',
                 component: _higher_level_home__WEBPACK_IMPORTED_MODULE_4__["HLHomeComponent"],
+            },
+            {
+                path: 'french',
+                component: _higher_level_french__WEBPACK_IMPORTED_MODULE_11__["HLFrenchComponent"],
             },
             {
                 path: 'applied-maths',
@@ -5243,19 +5949,23 @@ const routes = [
         children: [
             {
                 path: 'home',
-                component: _ordinary_level_home__WEBPACK_IMPORTED_MODULE_11__["OLHomeComponent"],
+                component: _ordinary_level_home__WEBPACK_IMPORTED_MODULE_12__["OLHomeComponent"],
+            },
+            {
+                path: 'french',
+                component: _ordinary_level_french_french_component__WEBPACK_IMPORTED_MODULE_16__["OLFrenchComponent"],
             },
             {
                 path: 'english',
-                component: _ordinary_level_english__WEBPACK_IMPORTED_MODULE_12__["OLEnglishComponent"],
+                component: _ordinary_level_english__WEBPACK_IMPORTED_MODULE_13__["OLEnglishComponent"],
             },
             {
                 path: 'irish',
-                component: _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_13__["OLIrishComponent"],
+                component: _ordinary_level_irish__WEBPACK_IMPORTED_MODULE_14__["OLIrishComponent"],
             },
             {
                 path: 'maths',
-                component: _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_14__["OLMathsComponent"],
+                component: _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_15__["OLMathsComponent"],
             },
             {
                 path: '**',
@@ -5282,7 +5992,7 @@ const appRoutingModule = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterMod
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLAppliedMathsComponent", function() { return HLAppliedMathsComponent; });
-/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _Papers_HLAppliedMathsPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/HLAppliedMathsPapers */ "./src/app/Papers/HLAppliedMathsPapers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
@@ -5328,7 +6038,7 @@ class HLAppliedMathsComponent {
         this.year = this.checkoutForm.get('year').value;
         this.hasPaper = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLAppliedMathsPapers"]) {
+        for (var paper of _Papers_HLAppliedMathsPapers__WEBPACK_IMPORTED_MODULE_0__["HLAppliedMathsPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     this.hasPaper = true;
@@ -5412,7 +6122,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLDcgComponent", function() { return HLDcgComponent; });
-/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _Papers_HLDCGPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/HLDCGPapers */ "./src/app/Papers/HLDCGPapers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
@@ -5472,7 +6182,7 @@ class HLDcgComponent {
         this.hasSectionA = false;
         this.hasSectionB = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLDCGPapers"]) {
+        for (var paper of _Papers_HLDCGPapers__WEBPACK_IMPORTED_MODULE_0__["HLDCGPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "A") {
@@ -5567,7 +6277,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLEnglishComponent", function() { return HLEnglishComponent; });
-/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _Papers_HLEnglishPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/HLEnglishPapers */ "./src/app/Papers/HLEnglishPapers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
@@ -5627,7 +6337,7 @@ class HLEnglishComponent {
         this.hasOne = false;
         this.hasTwo = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLEnglishPapers"]) {
+        for (var paper of _Papers_HLEnglishPapers__WEBPACK_IMPORTED_MODULE_0__["HLEnglishPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "One") {
@@ -5712,6 +6422,186 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/app/higher-level/french/french.component.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/higher-level/french/french.component.ts ***!
+  \*********************************************************/
+/*! exports provided: HLFrenchComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLFrenchComponent", function() { return HLFrenchComponent; });
+/* harmony import */ var _Papers_HLFrenchPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/HLFrenchPapers */ "./src/app/Papers/HLFrenchPapers.ts");
+/* harmony import */ var _Papers_SoundFilesFrench__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Papers/SoundFilesFrench */ "./src/app/Papers/SoundFilesFrench.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+
+
+
+
+
+function HLFrenchComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Paper ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r0.paperLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+} }
+function HLFrenchComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Aural Paper ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r1.auralLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+} }
+function HLFrenchComponent_div_13_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Sound File ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r2.soundLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+} }
+function HLFrenchComponent_div_15_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Marking Scheme ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r3.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+} }
+class HLFrenchComponent {
+    constructor(formBuilder) {
+        this.formBuilder = formBuilder;
+        this.hasPaper = false;
+        this.hasAural = false;
+        this.hasSound = false;
+        this.hasMark = false;
+        this.paperLink = "";
+        this.auralLink = "";
+        this.soundLink = "";
+        this.markLink = "";
+        this.checkoutForm = this.formBuilder.group({
+            year: '',
+        });
+    }
+    onSubmit() {
+        this.year = this.checkoutForm.get('year').value;
+        this.hasPaper = false;
+        this.hasAural = false;
+        this.hasSound = false;
+        this.hasMark = false;
+        for (var paper of _Papers_HLFrenchPapers__WEBPACK_IMPORTED_MODULE_0__["HLFrenchPapers"]) {
+            if ((paper.year == this.year)) {
+                if (paper.tipe == "ExamPaper") {
+                    this.hasPaper = true;
+                    this.paperLink = paper.link;
+                }
+                else if (paper.tipe == "AuralPaper") {
+                    this.hasAural = true;
+                    this.auralLink = paper.link;
+                }
+                else {
+                    this.hasMark = true;
+                    this.markLink = paper.link;
+                }
+            }
+        }
+        for (var sound of _Papers_SoundFilesFrench__WEBPACK_IMPORTED_MODULE_1__["SoundFilesFrench"]) {
+            if ((sound.year == this.year)) {
+                this.hasSound = true;
+                this.soundLink = sound.link;
+            }
+        }
+    }
+}
+HLFrenchComponent.ɵfac = function HLFrenchComponent_Factory(t) { return new (t || HLFrenchComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"])); };
+HLFrenchComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: HLFrenchComponent, selectors: [["app-higher-level-french"]], decls: 16, vars: 5, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLFrenchComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "body");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "French Papers");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "form", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngSubmit", function HLFrenchComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](5, "input", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](9, HLFrenchComponent_div_9_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](11, HLFrenchComponent_div_11_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](13, HLFrenchComponent_div_13_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](15, HLFrenchComponent_div_15_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("formGroup", ctx.checkoutForm);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasPaper);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasAural);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasSound);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasMark);
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9mcmVuY2gvZnJlbmNoLmNvbXBvbmVudC5jc3MifQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](HLFrenchComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"],
+        args: [{
+                selector: 'app-higher-level-french',
+                templateUrl: 'french.component.html',
+                styleUrls: ['french.component.css']
+            }]
+    }], function () { return [{ type: _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/higher-level/french/index.ts":
+/*!**********************************************!*\
+  !*** ./src/app/higher-level/french/index.ts ***!
+  \**********************************************/
+/*! exports provided: HLFrenchComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _french_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./french.component */ "./src/app/higher-level/french/french.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HLFrenchComponent", function() { return _french_component__WEBPACK_IMPORTED_MODULE_0__["HLFrenchComponent"]; });
+
+
+
+
+/***/ }),
+
 /***/ "./src/app/higher-level/higher-level.component.ts":
 /*!********************************************************!*\
   !*** ./src/app/higher-level/higher-level.component.ts ***!
@@ -5730,7 +6620,7 @@ __webpack_require__.r(__webpack_exports__);
 class HigherLevelComponent {
 }
 HigherLevelComponent.ɵfac = function HigherLevelComponent_Factory(t) { return new (t || HigherLevelComponent)(); };
-HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HigherLevelComponent, selectors: [["ng-component"]], decls: 36, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level", 1, "active"], ["routerLink", "/ordinary-level"], [1, "TopBar"], ["routerLink", "/higher-level/english"], ["routerLink", "/higher-level/irish"], ["routerLink", "/higher-level/maths"], ["routerLink", "/higher-level/applied-maths"], ["routerLink", "/higher-level/physics"], ["routerLink", "/higher-level/dcg"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function HigherLevelComponent_Template(rf, ctx) { if (rf & 1) {
+HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HigherLevelComponent, selectors: [["ng-component"]], decls: 39, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level", 1, "active"], ["routerLink", "/ordinary-level"], [1, "TopBar"], ["routerLink", "/higher-level/english"], ["routerLink", "/higher-level/irish"], ["routerLink", "/higher-level/maths"], ["routerLink", "/higher-level/applied-maths"], ["routerLink", "/higher-level/physics"], ["routerLink", "/higher-level/dcg"], ["routerLink", "/higher-level/french"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function HigherLevelComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -5782,13 +6672,18 @@ HigherLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "DCG");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "French");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -5909,10 +6804,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLIrishComponent", function() { return HLIrishComponent; });
-/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _Papers_HLIrishPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/HLIrishPapers */ "./src/app/Papers/HLIrishPapers.ts");
+/* harmony import */ var _Papers_SoundFilesIrish__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Papers/SoundFilesIrish */ "./src/app/Papers/SoundFilesIrish.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
 
 
@@ -5920,48 +6816,48 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function HLIrishComponent_div_9_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Paper One ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Paper One ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r0.oneLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r0.oneLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
 } }
 function HLIrishComponent_div_11_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Paper Two ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Paper Two ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r1.twoLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r1.twoLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
 } }
 function HLIrishComponent_div_13_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Aural ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Aural ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r2.audioLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r2.audioLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
 } }
 function HLIrishComponent_div_15_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Marking Scheme ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Marking Scheme ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", ctx_r3.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r3.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
 } }
 class HLIrishComponent {
     constructor(formBuilder) {
@@ -5984,13 +6880,13 @@ class HLIrishComponent {
         this.hasTwo = false;
         this.hasMark = false;
         this.hasAudio = false;
-        for (var audio of _Papers__WEBPACK_IMPORTED_MODULE_0__["IrishAurals"]) {
+        for (var audio of _Papers_SoundFilesIrish__WEBPACK_IMPORTED_MODULE_1__["SoundFilesIrish"]) {
             if (audio.year == this.year) {
                 this.hasAudio = true;
                 this.audioLink = audio.link;
             }
         }
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLIrishPapers"]) {
+        for (var paper of _Papers_HLIrishPapers__WEBPACK_IMPORTED_MODULE_0__["HLIrishPapers"]) {
             if (paper.year == this.year) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "One") {
@@ -6010,55 +6906,55 @@ class HLIrishComponent {
         }
     }
 }
-HLIrishComponent.ɵfac = function HLIrishComponent_Factory(t) { return new (t || HLIrishComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"])); };
-HLIrishComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HLIrishComponent, selectors: [["app-higher-level-irish"]], decls: 16, vars: 5, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLIrishComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "body");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Irish Papers");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "form", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function HLIrishComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "input", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, HLIrishComponent_div_9_Template, 3, 1, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, HLIrishComponent_div_11_Template, 3, 1, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, HLIrishComponent_div_13_Template, 3, 1, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](15, HLIrishComponent_div_15_Template, 3, 1, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+HLIrishComponent.ɵfac = function HLIrishComponent_Factory(t) { return new (t || HLIrishComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"])); };
+HLIrishComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: HLIrishComponent, selectors: [["app-higher-level-irish"]], decls: 16, vars: 5, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function HLIrishComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "body");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "Irish Papers");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "form", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngSubmit", function HLIrishComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](5, "input", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](9, HLIrishComponent_div_9_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](11, HLIrishComponent_div_11_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](13, HLIrishComponent_div_13_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](15, HLIrishComponent_div_15_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("formGroup", ctx.checkoutForm);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasOne);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasTwo);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasAudio);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.hasMark);
-    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9pcmlzaC9pcmlzaC5jb21wb25lbnQuY3NzIn0= */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](HLIrishComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("formGroup", ctx.checkoutForm);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasOne);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasTwo);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasAudio);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasMark);
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpZ2hlci1sZXZlbC9pcmlzaC9pcmlzaC5jb21wb25lbnQuY3NzIn0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](HLIrishComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"],
         args: [{
                 selector: 'app-higher-level-irish',
                 templateUrl: 'irish.component.html',
                 styleUrls: ['irish.component.css']
             }]
-    }], function () { return [{ type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }]; }, null); })();
+    }], function () { return [{ type: _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"] }]; }, null); })();
 
 
 /***/ }),
@@ -6090,7 +6986,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLMathsComponent", function() { return HLMathsComponent; });
-/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _Papers_HLMathsPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/HLMathsPapers */ "./src/app/Papers/HLMathsPapers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
@@ -6150,7 +7046,7 @@ class HLMathsComponent {
         this.hasOne = false;
         this.hasTwo = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLMathsPapers"]) {
+        for (var paper of _Papers_HLMathsPapers__WEBPACK_IMPORTED_MODULE_0__["HLMathsPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "One") {
@@ -6245,7 +7141,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HLPhysicsComponent", function() { return HLPhysicsComponent; });
-/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _Papers_HLPhysicsPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/HLPhysicsPapers */ "./src/app/Papers/HLPhysicsPapers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
@@ -6291,7 +7187,7 @@ class HLPhysicsComponent {
         this.year = this.checkoutForm.get('year').value;
         this.hasPaper = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["HLPhysicsPapers"]) {
+        for (var paper of _Papers_HLPhysicsPapers__WEBPACK_IMPORTED_MODULE_0__["HLPhysicsPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     this.hasPaper = true;
@@ -6366,7 +7262,7 @@ __webpack_require__.r(__webpack_exports__);
 class HomeComponent {
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 25, vars: 0, consts: [[1, "head"], ["routerLink", "/", 1, "active"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level"], [1, "Title"], [1, "Intro"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 28, vars: 0, consts: [[1, "head"], ["routerLink", "/", 1, "active"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level"], [1, "Title"], [1, "Intro"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -6405,7 +7301,12 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Ordinary papers are kinda wip, I've got english");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Ordinary papers are kinda wip, I've got english & french");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Fairly big structure design change so site could be buggy");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -6449,7 +7350,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLEnglishComponent", function() { return OLEnglishComponent; });
-/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _Papers_OLEnglishPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/OLEnglishPapers */ "./src/app/Papers/OLEnglishPapers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
@@ -6509,7 +7410,7 @@ class OLEnglishComponent {
         this.hasOne = false;
         this.hasTwo = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["OLEnglishPapers"]) {
+        for (var paper of _Papers_OLEnglishPapers__WEBPACK_IMPORTED_MODULE_0__["OLEnglishPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "One") {
@@ -6588,6 +7489,186 @@ OLEnglishComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefin
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _english_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./english.component */ "./src/app/ordinary-level/english/english.component.ts");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OLEnglishComponent", function() { return _english_component__WEBPACK_IMPORTED_MODULE_0__["OLEnglishComponent"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/ordinary-level/french/french.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/ordinary-level/french/french.component.ts ***!
+  \***********************************************************/
+/*! exports provided: OLFrenchComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLFrenchComponent", function() { return OLFrenchComponent; });
+/* harmony import */ var _Papers_OLFrenchPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/OLFrenchPapers */ "./src/app/Papers/OLFrenchPapers.ts");
+/* harmony import */ var _Papers_SoundFilesFrench__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Papers/SoundFilesFrench */ "./src/app/Papers/SoundFilesFrench.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+
+
+
+
+
+function OLFrenchComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Paper ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r0.paperLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+} }
+function OLFrenchComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Aural Paper ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r1.auralLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+} }
+function OLFrenchComponent_div_13_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Sound File ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r2.soundLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+} }
+function OLFrenchComponent_div_15_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " Marking Scheme ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("href", ctx_r3.markLink, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+} }
+class OLFrenchComponent {
+    constructor(formBuilder) {
+        this.formBuilder = formBuilder;
+        this.hasPaper = false;
+        this.hasAural = false;
+        this.hasSound = false;
+        this.hasMark = false;
+        this.paperLink = "";
+        this.auralLink = "";
+        this.soundLink = "";
+        this.markLink = "";
+        this.checkoutForm = this.formBuilder.group({
+            year: '',
+        });
+    }
+    onSubmit() {
+        this.year = this.checkoutForm.get('year').value;
+        this.hasPaper = false;
+        this.hasAural = false;
+        this.hasSound = false;
+        this.hasMark = false;
+        for (var paper of _Papers_OLFrenchPapers__WEBPACK_IMPORTED_MODULE_0__["OLFrenchPapers"]) {
+            if ((paper.year == this.year)) {
+                if (paper.tipe == "ExamPaper") {
+                    this.hasPaper = true;
+                    this.paperLink = paper.link;
+                }
+                else if (paper.tipe == "AuralPaper") {
+                    this.hasAural = true;
+                    this.auralLink = paper.link;
+                }
+                else {
+                    this.hasMark = true;
+                    this.markLink = paper.link;
+                }
+            }
+        }
+        for (var sound of _Papers_SoundFilesFrench__WEBPACK_IMPORTED_MODULE_1__["SoundFilesFrench"]) {
+            if ((sound.year == this.year)) {
+                this.hasSound = true;
+                this.soundLink = sound.link;
+            }
+        }
+    }
+}
+OLFrenchComponent.ɵfac = function OLFrenchComponent_Factory(t) { return new (t || OLFrenchComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"])); };
+OLFrenchComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: OLFrenchComponent, selectors: [["app-higher-level-french"]], decls: 16, vars: 5, consts: [[1, "Title"], [3, "formGroup", "ngSubmit"], ["id", "year", "type", "text", "formControlName", "year", "placeholder", "Year"], [1, "Results"], [4, "ngIf"], ["target", "_blank", 3, "href"]], template: function OLFrenchComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "body");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "French Papers");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "form", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngSubmit", function OLFrenchComponent_Template_form_ngSubmit_4_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](5, "input", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](9, OLFrenchComponent_div_9_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](11, OLFrenchComponent_div_11_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](13, OLFrenchComponent_div_13_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](15, OLFrenchComponent_div_15_Template, 3, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("formGroup", ctx.checkoutForm);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasPaper);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasAural);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasSound);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.hasMark);
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL29yZGluYXJ5LWxldmVsL2ZyZW5jaC9mcmVuY2guY29tcG9uZW50LmNzcyJ9 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](OLFrenchComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"],
+        args: [{
+                selector: 'app-higher-level-french',
+                templateUrl: 'french.component.html',
+                styleUrls: ['french.component.css']
+            }]
+    }], function () { return [{ type: _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/ordinary-level/french/index.ts":
+/*!************************************************!*\
+  !*** ./src/app/ordinary-level/french/index.ts ***!
+  \************************************************/
+/*! exports provided: OLFrenchComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _french_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./french.component */ "./src/app/ordinary-level/french/french.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OLFrenchComponent", function() { return _french_component__WEBPACK_IMPORTED_MODULE_0__["OLFrenchComponent"]; });
 
 
 
@@ -6698,7 +7779,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLIrishComponent", function() { return OLIrishComponent; });
-/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _Papers_OLIrishPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/OLIrishPapers */ "./src/app/Papers/OLIrishPapers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
@@ -6758,7 +7839,7 @@ class OLIrishComponent {
         this.hasOne = false;
         this.hasTwo = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["OLIrishPapers"]) {
+        for (var paper of _Papers_OLIrishPapers__WEBPACK_IMPORTED_MODULE_0__["OLIrishPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "One") {
@@ -6853,7 +7934,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OLMathsComponent", function() { return OLMathsComponent; });
-/* harmony import */ var _Papers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers */ "./src/app/Papers.ts");
+/* harmony import */ var _Papers_OLMathsPapers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Papers/OLMathsPapers */ "./src/app/Papers/OLMathsPapers.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
@@ -6913,7 +7994,7 @@ class OLMathsComponent {
         this.hasOne = false;
         this.hasTwo = false;
         this.hasMark = false;
-        for (var paper of _Papers__WEBPACK_IMPORTED_MODULE_0__["OLMathsPapers"]) {
+        for (var paper of _Papers_OLMathsPapers__WEBPACK_IMPORTED_MODULE_0__["OLMathsPapers"]) {
             if ((paper.year == this.year)) {
                 if (paper.tipe == "ExamPaper") {
                     if (paper.paper == "One") {
@@ -6999,7 +8080,7 @@ __webpack_require__.r(__webpack_exports__);
 class OrdinaryLevelComponent {
 }
 OrdinaryLevelComponent.ɵfac = function OrdinaryLevelComponent_Factory(t) { return new (t || OrdinaryLevelComponent)(); };
-OrdinaryLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OrdinaryLevelComponent, selectors: [["ng-component"]], decls: 21, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level", 1, "active"], [1, "TopBar"], ["routerLink", "/ordinary-level/english"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function OrdinaryLevelComponent_Template(rf, ctx) { if (rf & 1) {
+OrdinaryLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OrdinaryLevelComponent, selectors: [["ng-component"]], decls: 24, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level", 1, "active"], [1, "TopBar"], ["routerLink", "/ordinary-level/english"], ["routerLink", "/ordinary-level/french"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function OrdinaryLevelComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -7026,13 +8107,18 @@ OrdinaryLevelComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "English");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "French");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

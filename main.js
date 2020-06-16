@@ -5192,7 +5192,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _cp_notes_home__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./cp-notes/home */ "./src/app/cp-notes/home/index.ts");
 /* harmony import */ var _cp_notes_graphs__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./cp-notes/graphs */ "./src/app/cp-notes/graphs/index.ts");
 /* harmony import */ var _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./cp-notes/mathematics */ "./src/app/cp-notes/mathematics/index.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./cp-notes/binary-search */ "./src/app/cp-notes/binary-search/index.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
 
 
 
@@ -5245,8 +5247,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
         _ordinary_level_maths__WEBPACK_IMPORTED_MODULE_20__["OLMathsComponent"],
         _cp_notes_home__WEBPACK_IMPORTED_MODULE_21__["CpHomeComponent"],
         _cp_notes_graphs__WEBPACK_IMPORTED_MODULE_22__["CpGraphsComponent"],
-        _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_23__["CpMathematicsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_24__["RouterModule"]] }); })();
+        _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_23__["CpMathematicsComponent"],
+        _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_24__["CpBinarySearchComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_25__["RouterModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
@@ -5275,6 +5278,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
                     _cp_notes_home__WEBPACK_IMPORTED_MODULE_21__["CpHomeComponent"],
                     _cp_notes_graphs__WEBPACK_IMPORTED_MODULE_22__["CpGraphsComponent"],
                     _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_23__["CpMathematicsComponent"],
+                    _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_24__["CpBinarySearchComponent"],
                 ],
                 providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_3__["HashLocationStrategy"] }],
                 bootstrap: [
@@ -5315,6 +5319,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _cp_notes_home__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./cp-notes/home */ "./src/app/cp-notes/home/index.ts");
 /* harmony import */ var _cp_notes_graphs__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./cp-notes/graphs */ "./src/app/cp-notes/graphs/index.ts");
 /* harmony import */ var _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./cp-notes/mathematics */ "./src/app/cp-notes/mathematics/index.ts");
+/* harmony import */ var _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./cp-notes/binary-search */ "./src/app/cp-notes/binary-search/index.ts");
+
 
 
 
@@ -5422,6 +5428,10 @@ const routes = [
                 component: _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_18__["CpMathematicsComponent"],
             },
             {
+                path: 'binary-search',
+                component: _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_19__["CpBinarySearchComponent"],
+            },
+            {
                 path: '**',
                 redirectTo: 'home',
                 pathMatch: 'full'
@@ -5432,6 +5442,133 @@ const routes = [
     { path: '**', redirectTo: '' }
 ];
 const appRoutingModule = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(routes);
+
+
+/***/ }),
+
+/***/ "./src/app/cp-notes/binary-search/binary-search.component.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/cp-notes/binary-search/binary-search.component.ts ***!
+  \*******************************************************************/
+/*! exports provided: CpBinarySearchComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CpBinarySearchComponent", function() { return CpBinarySearchComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class CpBinarySearchComponent {
+    constructor() {
+        this.discrete_ternary_search_code = `
+    while(L < R) {
+        int M = L + (R - L)/2;
+        if( A[M] > A[mid+1] ){
+            R = M;
+        }else{
+            L = M+1;
+        }
+    }
+  `;
+        this.golden_section_search_code = `
+    double inv_phi = 0.618033989;
+    
+    double calc_b(double L, double R){
+        return R - (R - L) * inv_phi;
+    }
+
+    double calc_c(double L, double R){
+        return L + (R - L) * inv_phi;
+    }
+
+    while((c - b) > eps){
+        if(f1 < f2){
+            a = b;
+            b = c;
+            c = calc_c(a, d);
+            f1 = f2;
+            f2 = f(c);
+        }else{
+            d = c;
+            c = b;
+            b = calc_b(a, d);
+            f2 = f1;
+            f1 = f(b);
+        }
+    }
+`;
+    }
+}
+CpBinarySearchComponent.ɵfac = function CpBinarySearchComponent_Factory(t) { return new (t || CpBinarySearchComponent)(); };
+CpBinarySearchComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CpBinarySearchComponent, selectors: [["ng-component"]], decls: 22, vars: 2, consts: [["id", "ternary-search"], [1, "bold"], [1, "code"]], template: function CpBinarySearchComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Ternary Search");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h3", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Discrete Ternary Search - ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "When finding local minima / maxima in a discrete range like an array, it's actually more effective and simpler to do a binary search than a ternary search");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "code");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "pre");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "h3", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Golden Section Search - ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "When finding minima / maxima in a continuous range, one can minimise calls to f(x) by reusing one of the middle values calculated in the previous iteration, it's most optimal to do this based on little \u03A6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "code");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "pre");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.discrete_ternary_search_code);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.golden_section_search_code);
+    } }, styles: ["p[_ngcontent-%COMP%] {\r\n  color: rgb(133, 143, 152);\r\n}\r\n\r\nh3[_ngcontent-%COMP%] {\r\n  color: rgb(196, 203, 209);\r\n}\r\n\r\nli[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n}\r\n\r\nh3.bold[_ngcontent-%COMP%]{\r\n  font-weight: bold;\r\n}\r\n\r\nh1[_ngcontent-%COMP%] {\r\n  color: rgb(196, 203, 209);\r\n}\r\n\r\n.code[_ngcontent-%COMP%] {\r\n  color: rgb(255, 238, 215);\r\n  font-weight: 500;\r\n  border-radius: 10px 25px;\r\n  background: rgb(59, 59, 59);\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n  width: 300px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3Atbm90ZXMvYmluYXJ5LXNlYXJjaC9iaW5hcnktc2VhcmNoLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsZ0JBQWdCO0VBQ2hCLHdCQUF3QjtFQUN4QiwyQkFBMkI7RUFDM0IsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9jcC1ub3Rlcy9iaW5hcnktc2VhcmNoL2JpbmFyeS1zZWFyY2guY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInAge1xyXG4gIGNvbG9yOiByZ2IoMTMzLCAxNDMsIDE1Mik7XHJcbn1cclxuXHJcbmgzIHtcclxuICBjb2xvcjogcmdiKDE5NiwgMjAzLCAyMDkpO1xyXG59XHJcblxyXG5saSB7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG59XHJcblxyXG5oMy5ib2xke1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG5oMSB7XHJcbiAgY29sb3I6IHJnYigxOTYsIDIwMywgMjA5KTtcclxufVxyXG5cclxuLmNvZGUge1xyXG4gIGNvbG9yOiByZ2IoMjU1LCAyMzgsIDIxNSk7XHJcbiAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4IDI1cHg7XHJcbiAgYmFja2dyb3VuZDogcmdiKDU5LCA1OSwgNTkpO1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICB3aWR0aDogMzAwcHg7XHJcbn0iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CpBinarySearchComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                templateUrl: 'binary-search.component.html',
+                styleUrls: ['./binary-search.component.css']
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/cp-notes/binary-search/index.ts":
+/*!*************************************************!*\
+  !*** ./src/app/cp-notes/binary-search/index.ts ***!
+  \*************************************************/
+/*! exports provided: CpBinarySearchComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _binary_search_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./binary-search.component */ "./src/app/cp-notes/binary-search/binary-search.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CpBinarySearchComponent", function() { return _binary_search_component__WEBPACK_IMPORTED_MODULE_0__["CpBinarySearchComponent"]; });
+
+
 
 
 /***/ }),
@@ -5454,7 +5591,7 @@ __webpack_require__.r(__webpack_exports__);
 class CpNotesComponent {
 }
 CpNotesComponent.ɵfac = function CpNotesComponent_Factory(t) { return new (t || CpNotesComponent)(); };
-CpNotesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CpNotesComponent, selectors: [["ng-component"]], decls: 27, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level"], [1, "active-cp-notes-link"], ["routerLink", "/cp-notes"], [1, "TopBar"], ["routerLink", "/cp-notes/graphs"], ["routerLink", "/cp-notes/mathematics"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function CpNotesComponent_Template(rf, ctx) { if (rf & 1) {
+CpNotesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CpNotesComponent, selectors: [["ng-component"]], decls: 30, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level"], [1, "active-cp-notes-link"], ["routerLink", "/cp-notes"], [1, "TopBar"], ["routerLink", "/cp-notes/graphs"], ["routerLink", "/cp-notes/mathematics"], ["routerLink", "/cp-notes/binary-search"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function CpNotesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -5491,18 +5628,23 @@ CpNotesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Mathematics");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Binary Search");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["a[_ngcontent-%COMP%] {\r\n  color: rgb(68, 142, 207);\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3Atbm90ZXMvY3Atbm90ZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHdCQUF3QjtBQUMxQiIsImZpbGUiOiJzcmMvYXBwL2NwLW5vdGVzL2NwLW5vdGVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJhIHtcclxuICBjb2xvcjogcmdiKDY4LCAxNDIsIDIwNyk7XHJcbn0iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["a[_ngcontent-%COMP%] {\r\n  color: rgb(68, 142, 207);\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3Atbm90ZXMvY3Atbm90ZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHdCQUF3QjtBQUMxQiIsImZpbGUiOiJzcmMvYXBwL2NwLW5vdGVzL2NwLW5vdGVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJhIHtcclxuICBjb2xvcjogcmdiKDY4LCAxNDIsIDIwNyk7XHJcbn1cclxuXHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CpNotesComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{

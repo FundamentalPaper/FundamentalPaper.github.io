@@ -5193,7 +5193,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _cp_notes_graphs__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./cp-notes/graphs */ "./src/app/cp-notes/graphs/index.ts");
 /* harmony import */ var _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./cp-notes/mathematics */ "./src/app/cp-notes/mathematics/index.ts");
 /* harmony import */ var _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./cp-notes/binary-search */ "./src/app/cp-notes/binary-search/index.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _cp_notes_blog__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./cp-notes/blog */ "./src/app/cp-notes/blog/index.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
 
 
 
@@ -5248,8 +5250,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
         _cp_notes_home__WEBPACK_IMPORTED_MODULE_21__["CpHomeComponent"],
         _cp_notes_graphs__WEBPACK_IMPORTED_MODULE_22__["CpGraphsComponent"],
         _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_23__["CpMathematicsComponent"],
-        _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_24__["CpBinarySearchComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_25__["RouterModule"]] }); })();
+        _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_24__["CpBinarySearchComponent"],
+        _cp_notes_blog__WEBPACK_IMPORTED_MODULE_25__["CpBlogComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_26__["RouterModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
@@ -5279,6 +5282,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector
                     _cp_notes_graphs__WEBPACK_IMPORTED_MODULE_22__["CpGraphsComponent"],
                     _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_23__["CpMathematicsComponent"],
                     _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_24__["CpBinarySearchComponent"],
+                    _cp_notes_blog__WEBPACK_IMPORTED_MODULE_25__["CpBlogComponent"],
                 ],
                 providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_3__["HashLocationStrategy"] }],
                 bootstrap: [
@@ -5320,6 +5324,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _cp_notes_graphs__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./cp-notes/graphs */ "./src/app/cp-notes/graphs/index.ts");
 /* harmony import */ var _cp_notes_mathematics__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./cp-notes/mathematics */ "./src/app/cp-notes/mathematics/index.ts");
 /* harmony import */ var _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./cp-notes/binary-search */ "./src/app/cp-notes/binary-search/index.ts");
+/* harmony import */ var _cp_notes_blog__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./cp-notes/blog */ "./src/app/cp-notes/blog/index.ts");
+
 
 
 
@@ -5430,6 +5436,10 @@ const routes = [
             {
                 path: 'binary-search',
                 component: _cp_notes_binary_search__WEBPACK_IMPORTED_MODULE_19__["CpBinarySearchComponent"],
+            },
+            {
+                path: 'blog',
+                component: _cp_notes_blog__WEBPACK_IMPORTED_MODULE_20__["CpBlogComponent"],
             },
             {
                 path: '**',
@@ -5573,6 +5583,149 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/app/cp-notes/blog/blog.component.ts":
+/*!*************************************************!*\
+  !*** ./src/app/cp-notes/blog/blog.component.ts ***!
+  \*************************************************/
+/*! exports provided: CpBlogComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CpBlogComponent", function() { return CpBlogComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class CpBlogComponent {
+    constructor() {
+        this.celtic_symmetry_statement = `  After taking an Ancient Irish History class, Diarmuid has become interested 
+  in finding geometric patterns in neolithic tomb locations around Ireland.  
+  He carefully plots the locations of N tombs (2 <= N <= 1000), 
+  each one occupying a distinct point in the 2D plane, and he wonders how many 
+  different lines of symmetry exist for this set of points. 
+  A line of symmetry, of course, is a line across which the points on both 
+  sides are mirror images of each other.`;
+        this.formula_1 = `
+          A' = 2(A ᵒ L)÷(L ᵒ L) - A
+  `;
+    }
+}
+CpBlogComponent.ɵfac = function CpBlogComponent_Factory(t) { return new (t || CpBlogComponent)(); };
+CpBlogComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CpBlogComponent, selectors: [["app-blog"]], decls: 50, vars: 2, consts: [["id", "celtic-symmetry"], [1, "bold"], [1, "wide-code"], [1, "code"]], template: function CpBlogComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Celtic Symmetry");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h3", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "17 / 06 / 2020");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Today I looked over the 2015 AIPO national finals questions to try my hand at a problem I'd heard of before, my brother had tried to do this problem in 2016 as practice but couldn't make it. However he was new to competitive programming so I figured it'd be fine");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "The question reads as follows: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "code");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "pre");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "In short, given a list of lattice points, output the number of distinct valid lines of symmetry, when I read this I figured out soon enough what I wanted to do,");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "I claim that any line of symmetery passes through either a vertex on the convex hull, or an edge midpoint of the convex hull, and that every line of symmetry passes through the center of mass of the points");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "There are many algorithms to find the convex hull in linear time, but I prefer the monotone chain algorithm, because it's really quite simple to implement");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "For every one of our generated valid points, we can pass a line through this point and the center of mass, and check for every other point whether or not it reflects over the line to a valid point");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "The question becomes, how can we find out where the reflected point ends up?");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Luckily for me, there are handy formulae for this!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "For a line that passes through the origin,");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "A is the point being reflected");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "L is any point on the line");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "code");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "pre");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "We can act as though that the centre of mass is the origin and then transform points around it to make use of the formula!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Writing the code");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "This was much more difficult than I thought it would have been, and in the end my code runs with time complexity O(N\u00B2logN)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "This is because when I reflect the points across, I have to do a lookup in a set of points to check if it's valid, which takes logN time");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "At the same time, I had to deal with many many floating point precision errors, and made frequent use of my epsilon constant, wasn't fun but eventually, after working for far too long at it, I implemented a solution that passes 100% of the testcases");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, " _ ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.celtic_symmetry_statement);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.formula_1);
+    } }, styles: ["p[_ngcontent-%COMP%] {\r\n  color: rgb(133, 143, 152);\r\n}\r\n\r\nh3[_ngcontent-%COMP%] {\r\n  color: rgb(196, 203, 209);\r\n}\r\n\r\nli[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n}\r\n\r\nh3.bold[_ngcontent-%COMP%]{\r\n  font-weight: bold;\r\n}\r\n\r\nh1[_ngcontent-%COMP%] {\r\n  color: rgb(196, 203, 209);\r\n}\r\n\r\n.wide-code[_ngcontent-%COMP%] {\r\n  color: rgb(255, 238, 215);\r\n  font-weight: 500;\r\n  border-radius: 10px 25px;\r\n  background: rgb(59, 59, 59);\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n  width: 600px;\r\n}\r\n\r\n.code[_ngcontent-%COMP%] {\r\n  color: rgb(255, 238, 215);\r\n  font-weight: 500;\r\n  border-radius: 10px 25px;\r\n  background: rgb(59, 59, 59);\r\n  padding: 10px;\r\n  box-sizing: border-box;\r\n  width: 300px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3Atbm90ZXMvYmxvZy9ibG9nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsZ0JBQWdCO0VBQ2hCLHdCQUF3QjtFQUN4QiwyQkFBMkI7RUFDM0IsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsZ0JBQWdCO0VBQ2hCLHdCQUF3QjtFQUN4QiwyQkFBMkI7RUFDM0IsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9jcC1ub3Rlcy9ibG9nL2Jsb2cuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInAge1xyXG4gIGNvbG9yOiByZ2IoMTMzLCAxNDMsIDE1Mik7XHJcbn1cclxuXHJcbmgzIHtcclxuICBjb2xvcjogcmdiKDE5NiwgMjAzLCAyMDkpO1xyXG59XHJcblxyXG5saSB7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG59XHJcblxyXG5oMy5ib2xke1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG5oMSB7XHJcbiAgY29sb3I6IHJnYigxOTYsIDIwMywgMjA5KTtcclxufVxyXG5cclxuLndpZGUtY29kZSB7XHJcbiAgY29sb3I6IHJnYigyNTUsIDIzOCwgMjE1KTtcclxuICBmb250LXdlaWdodDogNTAwO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHggMjVweDtcclxuICBiYWNrZ3JvdW5kOiByZ2IoNTksIDU5LCA1OSk7XHJcbiAgcGFkZGluZzogMTBweDtcclxuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gIHdpZHRoOiA2MDBweDtcclxufVxyXG5cclxuLmNvZGUge1xyXG4gIGNvbG9yOiByZ2IoMjU1LCAyMzgsIDIxNSk7XHJcbiAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4IDI1cHg7XHJcbiAgYmFja2dyb3VuZDogcmdiKDU5LCA1OSwgNTkpO1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICB3aWR0aDogMzAwcHg7XHJcbn0iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CpBlogComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-blog',
+                templateUrl: './blog.component.html',
+                styleUrls: ['./blog.component.css']
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/cp-notes/blog/index.ts":
+/*!****************************************!*\
+  !*** ./src/app/cp-notes/blog/index.ts ***!
+  \****************************************/
+/*! exports provided: CpBlogComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _blog_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./blog.component */ "./src/app/cp-notes/blog/blog.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CpBlogComponent", function() { return _blog_component__WEBPACK_IMPORTED_MODULE_0__["CpBlogComponent"]; });
+
+
+
+
+/***/ }),
+
 /***/ "./src/app/cp-notes/cp-notes.component.ts":
 /*!************************************************!*\
   !*** ./src/app/cp-notes/cp-notes.component.ts ***!
@@ -5591,7 +5744,7 @@ __webpack_require__.r(__webpack_exports__);
 class CpNotesComponent {
 }
 CpNotesComponent.ɵfac = function CpNotesComponent_Factory(t) { return new (t || CpNotesComponent)(); };
-CpNotesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CpNotesComponent, selectors: [["ng-component"]], decls: 30, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level"], [1, "active-cp-notes-link"], ["routerLink", "/cp-notes"], [1, "TopBar"], ["routerLink", "/cp-notes/graphs"], ["routerLink", "/cp-notes/mathematics"], ["routerLink", "/cp-notes/binary-search"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function CpNotesComponent_Template(rf, ctx) { if (rf & 1) {
+CpNotesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CpNotesComponent, selectors: [["ng-component"]], decls: 33, vars: 0, consts: [[1, "head"], ["routerLink", "/"], ["routerLink", "/higher-level"], ["routerLink", "/ordinary-level"], [1, "active-cp-notes-link"], ["routerLink", "/cp-notes"], [1, "TopBar"], ["routerLink", "/cp-notes/graphs"], ["routerLink", "/cp-notes/mathematics"], ["routerLink", "/cp-notes/binary-search"], [1, "blog-link"], ["routerLink", "/cp-notes/blog"], [1, "jumbotron"], [1, "container"], [1, "row"], [1, "col-sm-8", "offset-sm-2"]], template: function CpNotesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "li");
@@ -5633,18 +5786,23 @@ CpNotesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Binary Search");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Blog");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["a[_ngcontent-%COMP%] {\r\n  color: rgb(68, 142, 207);\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3Atbm90ZXMvY3Atbm90ZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHdCQUF3QjtBQUMxQiIsImZpbGUiOiJzcmMvYXBwL2NwLW5vdGVzL2NwLW5vdGVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJhIHtcclxuICBjb2xvcjogcmdiKDY4LCAxNDIsIDIwNyk7XHJcbn1cclxuXHJcbiJdfQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["a[_ngcontent-%COMP%] {\r\n  color: rgb(68, 142, 207);\r\n}\r\n\r\nli.blog-link[_ngcontent-%COMP%]{\r\n  float: right;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3Atbm90ZXMvY3Atbm90ZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHdCQUF3QjtBQUMxQjs7QUFFQTtFQUNFLFlBQVk7QUFDZCIsImZpbGUiOiJzcmMvYXBwL2NwLW5vdGVzL2NwLW5vdGVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJhIHtcclxuICBjb2xvcjogcmdiKDY4LCAxNDIsIDIwNyk7XHJcbn1cclxuXHJcbmxpLmJsb2ctbGlua3tcclxuICBmbG9hdDogcmlnaHQ7XHJcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CpNotesComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
